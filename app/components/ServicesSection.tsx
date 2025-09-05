@@ -9,7 +9,7 @@ export default function ServicesSection() {
   return (
     <section
       id="servicios"
-      className="relative py-14 md:py-20 z-10 lg:bg-none bg-gradient-to-br from-indigo to-electric-violet"
+      className="relative py-14 md:py-7 z-10 lg:bg-none bg-gradient-to-br from-indigo to-electric-violet"
     >
       <div className="max-w-6xl mx-auto px-4 lg:px-8 py-8 relative z-10">
         {

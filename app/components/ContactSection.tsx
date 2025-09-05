@@ -91,13 +91,13 @@ export default function ContactSection() {
   return (
     <section
       id="contacto"
-      className="relative md:bg-none bg-gradient-to-br from-electric-violet via-indigo to-electric-violet py-12 md:py-20 z-10"
+      className="relative md:bg-none bg-gradient-to-br from-electric-violet via-indigo to-electric-violet py-7 md:py-13 z-10"
     >
       <div className="max-w-6xl mx-auto px-4 lg:px-8 py-8 relative z-10">
         <h2 className="text-4xl text-white mb-12 font-bold">Contacto</h2>
         <div className="mb-8">
           <p className="text-white text-lg leading-relaxed">
-            ¿Tenés una idea en mente o un proyecto en marcha? Hablemos y veamos
+            ¿Tenés una idea en mente o un proyecto en marcha? <br /> Hablemos y veamos
             cómo puedo ayudarte.
           </p>
         </div>
@@ -212,7 +212,7 @@ export default function ContactSection() {
             <FaLinkedin size={32} />
           </a>
           <a
-            href="#"
+            href="https://mail.google.com/mail/?view=cm&to=alvaroperezdominguez00@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-light-sky-blue transition-colors duration-300 transform hover:scale-110"

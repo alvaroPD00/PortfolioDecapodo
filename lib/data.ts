@@ -79,31 +79,73 @@ export const servicios = [
     descripcion:
       "Definición de dirección artística, creación de guías de estilo visual y coordinación entre equipos de arte y desarrollo para mantener coherencia estética.",
   },
+  
 ];
 
 export const certificaciones = [
   {
-    fecha: "2023",
-    titulo: "Unity Certified User: Programmer",
+    fecha: "2016 - 2023",
+    titulo: "Licenciatura en diseño multimedial",
     descripcion:
-      "Certificación oficial de Unity Technologies que valida competencias en programación y desarrollo de videojuegos.",
+      "Facutad De Artes - Universidad Nacional de La Plata",
+    url: "https://www.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-dom%C3%ADnguez/overlay/1727279381342/single-media-viewer/?profileId=ACoAAD1vrTsButFn4xUywh4Wg4de7h4L_OFzx2A"
   },
   {
-    fecha: "2022",
-    titulo: "Game Design Fundamentals",
+    fecha: "Septiembre - Diciembre (2022)",
+    titulo: "Ideá Tu Videojuego 2",
     descripcion:
-      "Curso especializado en fundamentos del diseño de videojuegos, mecánicas de juego y experiencia del usuario.",
+      "Gobierno de la Ciudad de Buenos Aires",
+    url: "https://www.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-dom%C3%ADnguez/details/certifications/1705013476870/single-media-viewer/?profileId=ACoAAD1vrTsButFn4xUywh4Wg4de7h4L_OFzx2Ahttps://example.com/game-design-fundamentals"
   },
   {
-    fecha: "2022",
-    titulo: "Narrative Design for Games",
+    fecha: "Marzo - Julio (2024)",
+    titulo: "Diseño Web",
     descripcion:
-      "Especialización en diseño narrativo interactivo, construcción de mundos y desarrollo de personajes para videojuegos.",
+      "Ministerio de trabajo - Provincia de Buenos Aires",
+    url: "https://www.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-dom%C3%ADnguez/details/certifications/1757035074994/single-media-viewer/?profileId=ACoAAD1vrTsButFn4xUywh4Wg4de7h4L_OFzx2A"
   },
   {
-    fecha: "2021",
-    titulo: "Advanced Unity Development",
+    fecha: "Abril - Mayo (2024)",
+    titulo: "Habilidades para la empleabilidad",
     descripcion:
-      "Curso avanzado de desarrollo en Unity, incluyendo optimización, arquitectura de código y mejores prácticas.",
+      "Gobierno de la Ciudad de Buenos Aires",
+    url: "https://www.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-dom%C3%ADnguez/details/certifications/1719952344429/single-media-viewer/?profileId=ACoAAD1vrTsButFn4xUywh4Wg4de7h4L_OFzx2A"
   },
+
+  {
+    fecha: "Abril (2023)",
+    titulo: "#SéProgramar",
+    descripcion:
+      "INTI - Instituto Nacional de Tecnología Industrial",
+    url: "https://www.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-dom%C3%ADnguez/details/certifications/1705012210544/single-media-viewer/?profileId=ACoAAD1vrTsButFn4xUywh4Wg4de7h4L_OFzx2A"
+  },
+  {
+    fecha: "Agosto - Noviembre (2019)",
+    titulo: "Taller de sonido digital - Edición y montaje",
+    descripcion:
+      "Universidad Nacional de La Plata",
+    url: "https://www.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-dom%C3%ADnguez/details/certifications/1705011939771/single-media-viewer/?profileId=ACoAAD1vrTsButFn4xUywh4Wg4de7h4L_OFzx2A"
+  },
+  {
+    fecha: "Abril 2025",
+    titulo: "Gestión, Negocios y finanzas para videojuegos",
+    descripcion:
+      "La Subsecretaría de Industrias Creativas e Innovación Cultural del Instituto Cultural de la Provincia de Buenos Aires",
+    url: "https://www.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-dom%C3%ADnguez/overlay/1757038580162/single-media-viewer/?profileId=ACoAAD1vrTsButFn4xUywh4Wg4de7h4L_OFzx2A"
+  },
+  {
+    fecha: "Abril 2025",
+    titulo: "Cooperativas y videojuegos",
+    descripcion:
+      "La Subsecretaría de Industrias Creativas e Innovación Cultural del Instituto Cultural de la Provincia de Buenos Aires",
+    url: "https://www.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-dom%C3%ADnguez/overlay/1757038992453/single-media-viewer/?profileId=ACoAAD1vrTsButFn4xUywh4Wg4de7h4L_OFzx2A"
+  }
+  ,
+  {
+    fecha: "blabla3",
+    titulo: "blabla3",
+    descripcion:
+      "blabla3",
+    url: "https://example.com/narrative-design"
+  }
 ];

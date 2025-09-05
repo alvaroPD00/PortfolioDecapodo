@@ -2,7 +2,7 @@ import { FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function AboutSection() {
   return (
-    <section id="sobre" className="relative py-12 md:py-20 z-10 bg-duke-blue">
+    <section id="sobre" className="relative py-12 md:py-7 z-10 bg-duke-blue">
       <div className="max-w-6xl mx-auto px-4 lg:px-8 py-8 relative z-10">
         <h2 className="text-4xl text-white lg:mb-14 mb-8 font-bold">
           Sobre Decápodo

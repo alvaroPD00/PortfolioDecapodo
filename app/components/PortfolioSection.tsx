@@ -95,7 +95,7 @@ export default function PortfolioSection() {
   return (
     <section
       id="portfolio"
-      className="relative py-12 md:py-20 z-10 md:bg-transparent bg-white"
+      className="relative py-12 md:py-7 z-10 md:bg-transparent bg-white"
     >
       <div className="max-w-6xl mx-auto px-4 lg:px-8 py-8 relative z-10">
         <h2 className="text-4xl text-black lg:mb-14 mb-8 font-bold">
@@ -233,7 +233,7 @@ export default function PortfolioSection() {
             <FaItchIo size={32} />
           </a>
           <a
-            href="#"
+            href="https://github.com/alvaroPD00"
             target="_blank"
             rel="noopener noreferrer"
             className="text-black hover:text-electric-violet transition-colors duration-300 transform hover:scale-110"
@@ -242,7 +242,7 @@ export default function PortfolioSection() {
             <FaGithub size={32} />
           </a>
           <a
-            href="#"
+            href="https://www.behance.net/AlvaroPerezDominguez#"
             target="_blank"
             rel="noopener noreferrer"
             className="text-black hover:text-electric-violet transition-colors duration-300 transform hover:scale-110"
