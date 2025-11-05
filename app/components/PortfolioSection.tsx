@@ -102,28 +102,36 @@ export default function PortfolioSection() {
           Portfolio
         </h2>
 
+<div className="mb-12">
+      <p className="text-black text-lg leading-relaxed">
+        Cada proyecto representa una exploración única en el diseño de
+        experiencias interactivas, combinando narrativa profunda con
+        mecánicas innovadoras.
+      </p>
+    </div>
+
         <div className="grid lg:grid-cols-2 gap-12 items-start mb-12">
           <div className="text-black">
             <div className="space-y-6 text-lg leading-relaxed mb-8">
-              <p>
-                Cada proyecto representa una exploración única en el diseño de
-                experiencias interactivas, combinando narrativa profunda con
-                mecánicas innovadoras.
-              </p>
+              
               <h3 className="text-2xl font-bold">
                 {proyectos[proyectoActual].titulo}
               </h3>
-              <p>{proyectos[proyectoActual].descripcion}</p>
-              {/* o puede ir acá */}
-              {/* <p>
-                Cada proyecto representa una exploración única en el diseño de
-                experiencias interactivas, combinando narrativa profunda con
-                mecánicas innovadoras.
-              </p> */}
+              {proyectos[proyectoActual].descripcion.map((parrafo, index) => (
+  <p key={index} className="mb-4">
+    {parrafo}
+  </p>
+))}
             </div>
-            <button className="bg-electric-violet hover:bg-electric-violet/80 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-medium">
-              Ver más
-            </button>
+            <a
+  href={proyectos[proyectoActual].url}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-electric-violet hover:bg-electric-violet/80 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-medium"
+>
+  Ver más
+</a>
+
           </div>
 
           <div>

@@ -14,7 +14,7 @@ export default function AboutSection() {
           </p>
           <p>
             Trabajo en el cruce entre lo técnico y lo poético, implementando
-            <b>prototipos funcionales en Unity</b> desde búsquedas artísticas
+            <b> prototipos funcionales en Unity</b> desde búsquedas artísticas
             profundas.
           </p>
           <p>

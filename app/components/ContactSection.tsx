@@ -67,26 +67,38 @@ export default function ContactSection() {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (!validateForm()) return;
+  if (!validateForm()) return;
 
-    setIsSubmitting(true);
+  setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-
-    // Reset form
-    setFormData({
-      nombre: "",
-      email: "",
-      tipoProyecto: "",
-      mensaje: "",
+  try {
+    const res = await fetch("/.netlify/functions/send-contact-mail", {
+      method: "POST",
+      body: JSON.stringify({
+        nombre: formData.nombre,
+        email: formData.email,
+        tipoProyecto: formData.tipoProyecto,
+        mensaje: formData.mensaje,
+      }),
     });
-    setIsSubmitting(false);
 
-    alert("¡Mensaje enviado correctamente! Te contactaré pronto.");
-  };
+    const data = await res.json();
+
+    if (res.ok) {
+      alert("¡Mensaje enviado correctamente!");
+      setFormData({ nombre: "", email: "", tipoProyecto: "", mensaje: "" });
+    } else {
+      alert("Error al enviar: " + data.message);
+    }
+  } catch (error) {
+    alert("Error de conexión: " + error);
+  } finally {
+    setIsSubmitting(false);
+  }
+};
+
 
   return (
     <section

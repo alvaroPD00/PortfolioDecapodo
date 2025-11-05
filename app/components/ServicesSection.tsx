@@ -38,19 +38,21 @@ export default function ServicesSection() {
               </button>
             ))}
           </div>
-          <div className="bg-electric-violet/90 backdrop-blur-sm rounded-lg p-8 shadow-xl">
-            <div className="text-white">
-              <h3 className="text-2xl mb-6 font-bold">
-                {servicios.find((s) => s.id === servicioSeleccionado)?.nombre}
-              </h3>
-              <p className="text-lg leading-relaxed">
-                {
-                  servicios.find((s) => s.id === servicioSeleccionado)
-                    ?.descripcion
-                }
-              </p>
-            </div>
-          </div>
+        <div className="bg-electric-violet/90 backdrop-blur-sm rounded-lg p-8 shadow-xl">
+  <div className="text-white">
+    <h3 className="text-2xl mb-6 font-bold">
+      {servicios.find((s) => s.id === servicioSeleccionado)?.nombre}
+    </h3>
+    {servicios
+      .find((s) => s.id === servicioSeleccionado)
+      ?.descripcion.map((linea, i) => (
+        <p key={i} className="text-lg leading-relaxed mb-2">
+          {linea}
+        </p>
+      ))}
+  </div>
+</div>
+
         </div>
       </div>
     </section>
