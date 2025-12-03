@@ -104,9 +104,7 @@ export default function PortfolioSection() {
 
 <div className="mb-12">
       <p className="text-black text-lg leading-relaxed">
-        Cada proyecto representa una exploración única en el diseño de
-        experiencias interactivas, combinando narrativa profunda con
-        mecánicas innovadoras.
+        Las siguientes entradas muestran la variedad de proyectos y disciplinas en las que me he desempeñado.
       </p>
     </div>
 

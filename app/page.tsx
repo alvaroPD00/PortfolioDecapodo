@@ -3,6 +3,7 @@
 import Navigation from "./components/Navigation";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
+import SkillsSection from "./components/SkillsSection";
 import PortfolioSection from "./components/PortfolioSection";
 import ServicesSection from "./components/ServicesSection";
 import CertificationsSection from "./components/CertificationsSection";
@@ -27,6 +28,7 @@ export default function Home() {
           />
         </div>
         <CertificationsSection />
+        <SkillsSection />
         <PortfolioSection />
       </div>
 

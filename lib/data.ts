@@ -139,6 +139,46 @@ export const certificaciones = [
       "Gobierno de la Ciudad de Buenos Aires",
     url: "https://drive.google.com/file/d/1PiQj68tlaYRN869FsFPkA5uHIouuaT3k/view?usp=sharing"
   },
+
+{
+    fecha: "Cursando",
+    titulo: "Unity 2D",
+    descripcion:
+      "Talento Tech",
+    url: "-"
+  },
+
+
+ {
+    fecha: "Abril - Julio 2025",
+    titulo: "Diseño UXUI para sitios web",
+    descripcion:
+      "Secretaria de extension Facultad de Artes de la UNLP",
+    url: "https://drive.google.com/file/d/1zv48otC2-9nlOM62wMIBYdSecEO7uhdv/view?usp=sharing"
+  }
+,
+
+
+
+  {
+    fecha: "Abril 2025",
+    titulo: "Gestión, Negocios y finanzas para videojuegos",
+    descripcion:
+      "La Subsecretaría de Industrias Creativas e Innovación Cultural del Instituto Cultural de la Provincia de Buenos Aires",
+    url: "https://drive.google.com/file/d/1cCAPAjppRTHbdyftnIZ8d3zfd6vouixc/view?usp=sharing"
+  },
+  {
+    fecha: "Abril 2025",
+    titulo: "Cooperativas y videojuegos",
+    descripcion:
+      "La Subsecretaría de Industrias Creativas e Innovación Cultural del Instituto Cultural de la Provincia de Buenos Aires",
+    url: "https://drive.google.com/file/d/1y-fZNalPZRUtN5c8CB7DoPyidSv-DaVq/view?usp=sharing"
+  }
+  ,
+ 
+  
+  
+  
   {
     fecha: "Marzo - Julio (2024)",
     titulo: "Diseño Web",
@@ -167,36 +207,6 @@ export const certificaciones = [
     descripcion:
       "Universidad Nacional de La Plata",
     url: "https://drive.google.com/file/d/1-CzBRc_anDcKuUTgw46Q05ffl5j9ylKh/view?usp=sharing"
-  },
-  {
-    fecha: "Abril 2025",
-    titulo: "Gestión, Negocios y finanzas para videojuegos",
-    descripcion:
-      "La Subsecretaría de Industrias Creativas e Innovación Cultural del Instituto Cultural de la Provincia de Buenos Aires",
-    url: "https://drive.google.com/file/d/1cCAPAjppRTHbdyftnIZ8d3zfd6vouixc/view?usp=sharing"
-  },
-  {
-    fecha: "Abril 2025",
-    titulo: "Cooperativas y videojuegos",
-    descripcion:
-      "La Subsecretaría de Industrias Creativas e Innovación Cultural del Instituto Cultural de la Provincia de Buenos Aires",
-    url: "https://drive.google.com/file/d/1y-fZNalPZRUtN5c8CB7DoPyidSv-DaVq/view?usp=sharing"
-  }
-  ,
-  {
-    fecha: "Abril - Julio 2025",
-    titulo: "Diseño UXUI para sitios web",
-    descripcion:
-      "Secretaria de extension Facultad de Artes de la UNLP",
-    url: "https://drive.google.com/file/d/1zv48otC2-9nlOM62wMIBYdSecEO7uhdv/view?usp=sharing"
-  }
-,
-{
-    fecha: "Cursando",
-    titulo: "Unity 2D",
-    descripcion:
-      "Talento Tech",
-    url: "-"
   }
 
 ];
