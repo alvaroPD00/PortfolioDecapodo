@@ -10,9 +10,9 @@ export default function AboutSection() {
         <div className="text-white space-y-6 text-lg leading-relaxed mb-12">
           <p>
             Soy Álvaro, diseñador multimedial especializado en {" "} <b>game design</b> y desarrollo en <b>Unity</b>.
-                      </p>
+          </p>
           <p>
-            Ayudo a equipos creativos a convertir ideas en sistemas jugables: ordenando conceptos, diseñando mecánicas y <b>desarrollando prototipos</b> que permiten avanzar con claridad.
+            Ayudo a equipos a convertir ideas en sistemas jugables: ordenando conceptos, diseñando mecánicas y <b>desarrollando prototipos</b> que permiten avanzar con claridad.
           </p>
           <p>
             Desde Decápodo Game Design trabajo en diseño, narrativa y desarrollo para resolver problemas, orientar decisiones y asegurar la <b>coherencia técnica y creativa</b> en cada proyecto.

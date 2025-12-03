@@ -9,6 +9,9 @@ import ServicesSection from "./components/ServicesSection";
 import CertificationsSection from "./components/CertificationsSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
+import BottomBackground from "./components/BottomBackground";
+import TopBackground from "./components/TopBackground";
+
 
 export default function Home() {
   return (
@@ -18,35 +21,23 @@ export default function Home() {
       <AboutSection />
       {/* Wrapper for About and Certifications with "arriba" SVG */}
       <div className="relative">
-        <div className="hidden md:block">
-          <div
-            className="absolute top-0 w-full h-full bg-position-[center] background-size: contain bg-no-repeat"
-            id="debug"
-            style={{
-              backgroundImage: "url('icons/arriba.svg')",
-            }}
-          />
-        </div>
+        <TopBackground />
+
         <CertificationsSection />
-        <SkillsSection />
-        <PortfolioSection />
       </div>
+
+      <SkillsSection />
+      <PortfolioSection />
 
       {/* Wrapper for Portfolio and Services with "abajo" SVG */}
       <div className="relative">
-        <div className="hidden md:block">
-          <div
-            className="absolute inset-0 w-full h-full bg-position-[center] background-size: contain bg-no-repeat "
-            style={{
-              backgroundImage: "url('icons/abajo.svg')",
-            }}
-          />
-        </div>
+        <BottomBackground />
 
         <ServicesSection />
         <ContactSection />
-        <Footer />
       </div>
+
+      <Footer />
     </main>
   );
 }
