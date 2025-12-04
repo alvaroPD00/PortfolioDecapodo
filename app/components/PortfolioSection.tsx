@@ -13,6 +13,28 @@ import {
 import { proyectos } from "@/lib/data";
 import { getYouTubeThumbnail } from "@/lib/utils";
 
+// Extrae el ID de YouTube desde cualquier formato de URL
+function getYouTubeVideoId(url: string): string {
+  try {
+    // Caso 1: URL tipo https://www.youtube.com/watch?v=XXXXX
+    const watchParam = new URL(url).searchParams.get("v");
+    if (watchParam) return watchParam;
+
+    // Caso 2: URL embed https://www.youtube.com/embed/XXXXX
+    const embedMatch = url.match(/\/embed\/([a-zA-Z0-9_-]+)/);
+    if (embedMatch) return embedMatch[1];
+
+    // Caso 3: URL corta https://youtu.be/XXXXX
+    const shortMatch = url.match(/youtu\.be\/([a-zA-Z0-9_-]+)/);
+    if (shortMatch) return shortMatch[1];
+
+    return ""; // fallback seguro
+  } catch {
+    return "";
+  }
+}
+
+
 export default function PortfolioSection() {
   const [proyectoActual, setProyectoActual] = useState(0);
   const [paginaSlider, setPaginaSlider] = useState(0);
@@ -65,32 +87,62 @@ export default function PortfolioSection() {
   }: {
     proyecto: (typeof proyectos)[0];
   }) => {
-    const thumbnailUrl =
-      proyecto.tipo === "video"
-        ? getYouTubeThumbnail(proyecto.media)
-        : proyecto.media;
+
+    // Si no es video, simplemente mostrar la imagen original
+    if (proyecto.tipo !== "video") {
+      return (
+        <div className="relative w-full h-full">
+          <Image
+            src={proyecto.media}
+            alt={proyecto.titulo}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 50vw, 25vw"
+            priority
+          />
+        </div>
+      );
+    }
+
+    // Si ES video — manejamos fallback dinámico
+    const videoId = getYouTubeVideoId(proyecto.media);
+
+    const fallbackOrder = [
+      `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`,  // poner primero la más confiable
+      `https://img.youtube.com/vi/${videoId}/sddefault.jpg`,
+      `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`,
+      `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
+    ];
+
+
+    const [thumbSrc, setThumbSrc] = useState(fallbackOrder[0]);
+
     return (
       <div className="relative w-full h-full">
         <Image
-          src={thumbnailUrl || "/placeholder.svg"}
+          src={thumbSrc}
           alt={proyecto.titulo}
           fill
           className="object-cover"
           sizes="(max-width: 768px) 50vw, 25vw"
           priority
-          onError={(e) => {
-            const target = e.target as HTMLImageElement;
-            target.src = "/placeholder.svg";
+          onError={() => {
+            const i = fallbackOrder.indexOf(thumbSrc);
+            if (i < fallbackOrder.length - 1) {
+              setThumbSrc(fallbackOrder[i + 1]);
+            } else {
+              setThumbSrc("/placeholder.svg");
+            }
           }}
         />
-        {proyecto.tipo === "video" && (
-          <div className="absolute bottom-2 right-2 bg-black/50 p-1 rounded">
-            <FaPlay className="text-white text-sm" />
-          </div>
-        )}
+
+        <div className="absolute bottom-2 right-2 bg-black/50 p-1 rounded">
+          <FaPlay className="text-white text-sm" />
+        </div>
       </div>
     );
   };
+
 
   return (
     <section
@@ -102,33 +154,33 @@ export default function PortfolioSection() {
           Portfolio
         </h2>
 
-<div className="mb-12">
-      <p className="text-black text-lg leading-relaxed">
-        Las siguientes entradas muestran la variedad de proyectos y disciplinas en las que me he desempeñado.
-      </p>
-    </div>
+        <div className="mb-12">
+          <p className="text-black text-lg leading-relaxed">
+            Las siguientes entradas muestran la variedad de proyectos y disciplinas en las que me he desempeñado.
+          </p>
+        </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start mb-12">
           <div className="text-black">
             <div className="space-y-6 text-lg leading-relaxed mb-8">
-              
+
               <h3 className="text-2xl font-bold">
                 {proyectos[proyectoActual].titulo}
               </h3>
               {proyectos[proyectoActual].descripcion.map((parrafo, index) => (
-  <p key={index} className="mb-4">
-    {parrafo}
-  </p>
-))}
+                <p key={index} className="mb-4">
+                  {parrafo}
+                </p>
+              ))}
             </div>
             <a
-  href={proyectos[proyectoActual].url}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-electric-violet hover:bg-electric-violet/80 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-medium"
->
-  Ver más
-</a>
+              href={proyectos[proyectoActual].url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-electric-violet hover:bg-electric-violet/80 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-medium"
+            >
+              Ver más
+            </a>
 
           </div>
 
@@ -150,11 +202,10 @@ export default function PortfolioSection() {
                   }
                 }}
                 disabled={paginaSlider === 0}
-                className={`p-2 transition-colors ${
-                  paginaSlider === 0
-                    ? "text-gray-500 cursor-not-allowed"
-                    : "text-black hover:text-electric-violet"
-                }`}
+                className={`p-2 transition-colors ${paginaSlider === 0
+                  ? "text-gray-500 cursor-not-allowed"
+                  : "text-black hover:text-electric-violet"
+                  }`}
                 aria-label="Anterior"
               >
                 <FaChevronLeft size={24} />
@@ -169,11 +220,10 @@ export default function PortfolioSection() {
                   }
                 }}
                 disabled={paginaSlider === totalPaginas - 1}
-                className={`p-2 transition-colors ${
-                  paginaSlider === totalPaginas - 1
-                    ? "text-gray-500 cursor-not-allowed"
-                    : "text-black hover:text-electric-violet"
-                }`}
+                className={`p-2 transition-colors ${paginaSlider === totalPaginas - 1
+                  ? "text-gray-500 cursor-not-allowed"
+                  : "text-black hover:text-electric-violet"
+                  }`}
                 aria-label="Siguiente"
               >
                 <FaChevronRight size={24} />
@@ -192,11 +242,10 @@ export default function PortfolioSection() {
                         setProyectoActual(proyectoIndex);
                         setIsPlaying(false);
                       }}
-                      className={`relative overflow-hidden rounded-lg transition-all duration-300 ${
-                        proyectoIndex === proyectoActual
-                          ? "ring-2 ring-electric-violet scale-105"
-                          : "opacity-70 hover:opacity-100 hover:scale-105"
-                      }`}
+                      className={`relative overflow-hidden rounded-lg transition-all duration-300 ${proyectoIndex === proyectoActual
+                        ? "ring-2 ring-electric-violet scale-105"
+                        : "opacity-70 hover:opacity-100 hover:scale-105"
+                        }`}
                       style={{ aspectRatio: "16/9" }}
                     >
                       <ThumbnailDisplay proyecto={proyecto} />
@@ -215,9 +264,8 @@ export default function PortfolioSection() {
                   <button
                     key={i}
                     onClick={() => setPaginaSlider(i)}
-                    className={`w-2 h-2 rounded-full transition-colors ${
-                      i === paginaSlider ? "bg-electric-violet" : "bg-gray-300"
-                    }`}
+                    className={`w-2 h-2 rounded-full transition-colors ${i === paginaSlider ? "bg-electric-violet" : "bg-gray-300"
+                      }`}
                   />
                 ))}
               </div>

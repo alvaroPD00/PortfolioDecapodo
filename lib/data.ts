@@ -9,11 +9,9 @@ export const proyectos = [
     ],
     tipo: "video", // or "imagen"
     media:
-      "https://youtu.be/55u-ni2dLa0?si=OOcDv3PZDGwrx-cE", // or video path
-
+      "https://www.youtube.com/embed/55u-ni2dLa0", // or video path
     url: "https://alvaropd.itch.io/procediverso"
   },
-
 
   {
     id: 2,
@@ -22,9 +20,9 @@ export const proyectos = [
       "Desarrollado en la Emergencia gameJAM II: Jubilados, convocada por AccionDev, Argentina 2025.",
       "Desarrollado en la Emergencia gameJAM II: Jubilados, convocada por AccionDev, Argentina 2025.",
     ],
-    tipo: "imagen", // or "video"
+    tipo: "video", // or "video"
     media:
-      "https://img.itch.zone/aW1nLzIwNTMwNDU4LmpwZw==/315x250%23c/fqFrYr.jpg", // or video path
+      "https://www.youtube.com/embed/1TYBFmS8B1c", // or video path
 
     url: "https://drive.google.com/file/d/1zv48otC2-9nlOM62wMIBYdSecEO7uhdv/view?usp=sharing"
   },
@@ -37,16 +35,16 @@ export const proyectos = [
         "Desarrollado en el Global Game JAM de enero de 2025, en la Ciudad de La Plata, provincia de Buenos Aires, Argentina.",
         "Desarrollado en el Global Game JAM de enero de 2025, en la Ciudad de La Plata, provincia de Buenos Aires, Argentina.",
       ],
-    tipo: "imagen", // or "video"
+    tipo: "video", // or "video"
     media:
-      "https://img.itch.zone/aW1nLzE5ODA5MDI2LnBuZw==/315x250%23c/5ncype.png", // or video path
+      "https://www.youtube.com/embed/RLenVgm-ZBQ", // or video path
 
     url: "https://drive.google.com/file/d/1zv48otC2-9nlOM62wMIBYdSecEO7uhdv/view?usp=sharing"
   },
 
   {
     id: 4,
-    titulo: "Proyecto: Crab pond",
+    titulo: "Prototipo: Crab pond",
     descripcion: [
       "SandBox pasa pasear, visitar cangrechis y acceder a sus portfolios.",
       "SandBox pasa pasear, visitar cangrechis y acceder a sus portfolios.",
@@ -60,27 +58,112 @@ export const proyectos = [
 
   {
     id: 5,
-    titulo: "Agome",
+    titulo: "Prototipo: Learning to Shrimp",
     descripcion: [
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
     ],
     tipo: "imagen", // or "video"
     media:
-      "https://img.itch.zone/aW1hZ2UvMzgwMjA5Ny8yMjY3MTA0Mi5qcGc=/original/cVwYFL.jpg", // or video path
+      "https://img.itch.zone/aW1hZ2UvMzg0Mjg1MC8yMjkxOTgyMS5qcGc=/original/SQpYWs.jpg", // or video path
 
-    url: "https://drive.google.com/file/d/1zv48otC2-9nlOM62wMIBYdSecEO7uhdv/view?usp=sharing"
+    url: "https://alvaropd.itch.io/learning-to-shrimp"
   },
+
   {
     id: 6,
-    titulo: "Crabtividad Musical",
+    titulo: "Prototipo: Carrera atardecer",
+    descripcion: [
+      "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
+      "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
+    ],
+    tipo: "video", // or "imagen"
+    media: "https://www.youtube.com/embed/Vua1Sc5n-6Y", // or image path
+    url: "https://alvaropd.itch.io/proyecto-carrera-atarceder"
+  },
+
+  {
+    id: 7,
+    titulo: "Agome",
+    descripcion: [
+      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+    ],
+    tipo: "imagen", // or "imagen"
+    media: "https://img.itch.zone/aW1hZ2UvMzgwMjA5Ny8yMjY3MTA0Mi5qcGc=/original/cVwYFL.jpg", // or image path
+    url: "https://alvaropd.itch.io/agome"
+  },
+
+  {
+    id: 8,
+    titulo: "Experiencia creando shaders en Unity",
+    descripcion: [
+      "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
+      "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
+    ],
+    tipo: "video", // or "imagen"
+    media: "https://www.youtube.com/embed/gcVk5FStjZo", // or image path
+    url: "https://youtu.be/Fj5eTj3e0ak?si=h9glemY_Gk9p9ESA"
+  },
+
+  {
+    id: 9,
+    titulo: "Desarrollo UX",
+    descripcion: [
+      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+    ],
+    tipo: "imagen", // or "imagen"
+    media: "--", // or image path
+    url: "https://procediweb.netlify.app/"
+  },
+
+  {
+    id: 10,
+    titulo: "Prototipo de blog web",
+    descripcion: [
+      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+    ],
+    tipo: "imagen", // or "imagen"
+    media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/ProcediWeb.jpg", // or image path
+    url: "https://procediweb.netlify.app/"
+  },
+
+  {
+    id: 11,
+    titulo: "Prototipo de portfolio",
+    descripcion: [
+      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+    ],
+    tipo: "imagen", // or "imagen"
+    media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/Portfolio.jpg", // or image path
+    url: "https://alvaroperezdominguezportfolio.netlify.app/"
+  },
+
+  {
+    id: 12,
+    titulo: "Edición de video",
     descripcion: [
       "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
       "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/exGDEu0X3c8", // or image path
-    url: "https://drive.google.com/file/d/1zv48otC2-9nlOM62wMIBYdSecEO7uhdv/view?usp=sharing"
+    url: "https://www.behance.net/gallery/239714951/Edicion-de-video"
+  },
+
+  {
+    id: 13,
+    titulo: "Noviembre Pluri Animado Platense",
+    descripcion: [
+      "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
+      "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
+    ],
+    tipo: "video", // or "imagen"
+    media: "https://www.youtube.com/embed/uWsjl1J6vu8", // or image path
+    url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1"
   },
 ];
 

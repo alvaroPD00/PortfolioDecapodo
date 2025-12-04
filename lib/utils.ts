@@ -7,8 +7,5 @@ export const getYouTubeVideoId = (url: string) => {
 
 export const getYouTubeThumbnail = (url: string) => {
   const videoId = getYouTubeVideoId(url);
-  // Return highest quality thumbnail
-  return videoId
-    ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`
-    : null;
+  return videoId ? `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg` : null;
 };
