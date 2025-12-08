@@ -42,12 +42,25 @@ export const proyectos = [
     url: "https://alvaropd.itch.io/translucido"
   },
 
+
   {
     id: 4,
+    titulo: "Prototipo: Carrera atardecer - 2025",
+    descripcion: [
+      "Bases para runner 3D de recolección de objetos a contrarreloj, con implementación de comportamiento sonoro y ambiental, junto a interacción de objetos del escenario para transmitir tensión.",
+      "Programación de eventos coordinados, desarrollo de materiales 2D y animados vía shader graph pipeline para el diseño de objetos acentuados y texturizado de un escenario sintético."
+    ],
+    tipo: "video", // or "imagen"
+    media: "https://www.youtube.com/embed/Vua1Sc5n-6Y", // or image path
+    url: "https://alvaropd.itch.io/proyecto-carrera-atarceder"
+  },
+
+  {
+    id: 5,
     titulo: "Prototipo: Crab pond - 2025",
     descripcion: [
-      "SandBox pasa pasear, visitar cangrechis y acceder a sus portfolios.",
-      "SandBox pasa pasear, visitar cangrechis y acceder a sus portfolios.",
+      "Pensado para web y móvil, compone las bases para sandbox de exploración, con personajes de multiples artistas, con los que uno interactúa para que te dirijan a sus portfolios o redes comerciales.",
+      "Implementación de NavMesh para comportamiento de personajes, texturas provisorias creadas con shadergraph pipeline e implementación de WebGL para conectividades con URLs.",
     ],
     tipo: "imagen", // or "video"
     media:
@@ -57,29 +70,16 @@ export const proyectos = [
   },
 
   {
-    id: 5,
+    id: 6,
     titulo: "Prototipo: Learning to Shrimp -2025",
     descripcion: [
-      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
-      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+      "Bases para juego de disparos inspirado en clásicos de arcade y Snes, simulando el vuelo por un escenario mediante relieves móviles, resueltos con shadergraph pipeline, y una cámara dispuesta para componer un horizonte.",
     ],
     tipo: "imagen", // or "video"
     media:
       "https://img.itch.zone/aW1hZ2UvMzg0Mjg1MC8yMjkxOTgyMS5qcGc=/original/SQpYWs.jpg", // or video path
 
     url: "https://alvaropd.itch.io/learning-to-shrimp"
-  },
-
-  {
-    id: 6,
-    titulo: "Prototipo: Carrera atardecer - 2025",
-    descripcion: [
-      "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
-      "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
-    ],
-    tipo: "video", // or "imagen"
-    media: "https://www.youtube.com/embed/Vua1Sc5n-6Y", // or image path
-    url: "https://alvaropd.itch.io/proyecto-carrera-atarceder"
   },
 
   {
