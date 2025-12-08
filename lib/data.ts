@@ -2,10 +2,10 @@ export const proyectos = [
 
   {
     id: 1,
-    titulo: "Procediverso",
+    titulo: "Procediverso - 2023",
     descripcion: [
-      "Experiencia de exploración surrealista, desarrollada para el medio de realidad virtual en el motor Unity",
-      "Experiencia de exploración surrealista, desarrollada para el medio de realidad virtual en el motor Unity",
+      "Experiencia de exploración de escenarios creados proceduralmente, desarrollada en el marco de mi tesis de grado para oculus quest 2, en el motor Unity3D. ",
+      "Programación en Unity partiendo de un proyecto de código abierto, implementación de plugin XR, desarrollo de assets 2D en Illustrator, Photoshop, Blender y Reaper.",
     ],
     tipo: "video", // or "imagen"
     media:
@@ -15,36 +15,36 @@ export const proyectos = [
 
   {
     id: 2,
-    titulo: "Fuerzas de la calle",
+    titulo: "Fuerzas de la calle - 2025",
     descripcion: [
-      "Desarrollado en la Emergencia gameJAM II: Jubilados, convocada por AccionDev, Argentina 2025.",
-      "Desarrollado en la Emergencia gameJAM II: Jubilados, convocada por AccionDev, Argentina 2025.",
+      "Auto chess/tower defense desarrollado para la Emergencia gameJAM II: Jubilados, convocada por AccionDev, y gestada durante 9 días",
+      "Diseño de gameplay, programación en unity3D, composición de escenario ficticio siguiendo referencia empírica, texturizado vía shader graph pipeline, desarrollo de placas noticiosas y audio.",
     ],
     tipo: "video", // or "video"
     media:
       "https://www.youtube.com/embed/1TYBFmS8B1c", // or video path
 
-    url: "https://drive.google.com/file/d/1zv48otC2-9nlOM62wMIBYdSecEO7uhdv/view?usp=sharing"
+    url: "https://alvaropd.itch.io/fuerzas-de-la-calle"
   },
 
   {
     id: 3,
-    titulo: "Translúcido",
+    titulo: "Translúcido - 2025",
     descripcion:
       [
-        "Desarrollado en el Global Game JAM de enero de 2025, en la Ciudad de La Plata, provincia de Buenos Aires, Argentina.",
-        "Desarrollado en el Global Game JAM de enero de 2025, en la Ciudad de La Plata, provincia de Buenos Aires, Argentina.",
+        "Plataformero 2.5D, desarrollado en el Global Game JAM de enero de 2025, en la Ciudad de La Plata, provincia de Buenos Aires, Argentina.",
+        "Diseño de mecánicas principales, elementos narrativos y escena final, desarrollo de comportamiento sonoro e implementación de fluidos y sistema de partículas con burbujas animadas.",
       ],
     tipo: "video", // or "video"
     media:
       "https://www.youtube.com/embed/RLenVgm-ZBQ", // or video path
 
-    url: "https://drive.google.com/file/d/1zv48otC2-9nlOM62wMIBYdSecEO7uhdv/view?usp=sharing"
+    url: "https://alvaropd.itch.io/translucido"
   },
 
   {
     id: 4,
-    titulo: "Prototipo: Crab pond",
+    titulo: "Prototipo: Crab pond - 2025",
     descripcion: [
       "SandBox pasa pasear, visitar cangrechis y acceder a sus portfolios.",
       "SandBox pasa pasear, visitar cangrechis y acceder a sus portfolios.",
@@ -53,12 +53,12 @@ export const proyectos = [
     media:
       "https://img.itch.zone/aW1nLzIyMDU1MDI1LmpwZw==/315x250%23c/BB27Xd.jpg", // or video path
 
-    url: "https://drive.google.com/file/d/1zv48otC2-9nlOM62wMIBYdSecEO7uhdv/view?usp=sharing"
+    url: "https://alvaropd.itch.io/proyecto-crab-pond"
   },
 
   {
     id: 5,
-    titulo: "Prototipo: Learning to Shrimp",
+    titulo: "Prototipo: Learning to Shrimp -2025",
     descripcion: [
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
@@ -72,7 +72,7 @@ export const proyectos = [
 
   {
     id: 6,
-    titulo: "Prototipo: Carrera atardecer",
+    titulo: "Prototipo: Carrera atardecer - 2025",
     descripcion: [
       "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
       "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
@@ -84,7 +84,7 @@ export const proyectos = [
 
   {
     id: 7,
-    titulo: "Agome",
+    titulo: "Agome - 2025",
     descripcion: [
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
@@ -96,7 +96,7 @@ export const proyectos = [
 
   {
     id: 8,
-    titulo: "Experiencia creando shaders en Unity",
+    titulo: "Experiencia creando shaders en Unity - 2025",
     descripcion: [
       "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
       "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
@@ -108,7 +108,7 @@ export const proyectos = [
 
   {
     id: 9,
-    titulo: "Desarrollo UX",
+    titulo: "Diseño UX web Portfolio Decápodo - 2025",
     descripcion: [
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
@@ -120,7 +120,7 @@ export const proyectos = [
 
   {
     id: 10,
-    titulo: "Prototipo de blog web",
+    titulo: "Prototipo de blog web - 2024",
     descripcion: [
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
@@ -132,7 +132,7 @@ export const proyectos = [
 
   {
     id: 11,
-    titulo: "Prototipo de portfolio",
+    titulo: "Prototipo de portfolio - 2024",
     descripcion: [
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
@@ -156,7 +156,7 @@ export const proyectos = [
 
   {
     id: 13,
-    titulo: "Noviembre Pluri Animado Platense",
+    titulo: "Noviembre Pluri Animado Platense - 2025",
     descripcion: [
       "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
       "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
