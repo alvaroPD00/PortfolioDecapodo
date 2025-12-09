@@ -2,7 +2,7 @@ export const proyectos = [
 
   {
     id: 1,
-    titulo: "Procediverso - 2023",
+    titulo: "Procediverso (Diciembre - 2023)",
     descripcion: [
       "Experiencia de exploración de escenarios creados proceduralmente, desarrollada en el marco de mi tesis de grado para oculus quest 2, en el motor Unity3D. ",
       "Programación en Unity partiendo de un proyecto de código abierto, implementación de plugin XR, desarrollo de assets 2D en Illustrator, Photoshop, Blender y Reaper.",
@@ -10,12 +10,13 @@ export const proyectos = [
     tipo: "video", // or "imagen"
     media:
       "https://www.youtube.com/embed/55u-ni2dLa0", // or video path
-    url: "https://alvaropd.itch.io/procediverso"
+    url: "https://alvaropd.itch.io/procediverso",
+    boton: "Jugar en itch.io",
   },
 
   {
     id: 2,
-    titulo: "Fuerzas de la calle - 2025",
+    titulo: "Fuerzas de la calle (Marzo - 2025)",
     descripcion: [
       "Auto chess/tower defense desarrollado para la Emergencia gameJAM II: Jubilados, convocada por AccionDev, y gestada durante 9 días",
       "Diseño de gameplay, programación en unity3D, composición de escenario ficticio siguiendo referencia empírica, texturizado vía shader graph pipeline, desarrollo de placas noticiosas y audio.",
@@ -24,12 +25,13 @@ export const proyectos = [
     media:
       "https://www.youtube.com/embed/1TYBFmS8B1c", // or video path
 
-    url: "https://alvaropd.itch.io/fuerzas-de-la-calle"
+    url: "https://alvaropd.itch.io/fuerzas-de-la-calle",
+    boton: "Jugar en itch.io",
   },
 
   {
     id: 3,
-    titulo: "Translúcido - 2025",
+    titulo: "Translúcido (Enero - 2025)",
     descripcion:
       [
         "Plataformero 2.5D, desarrollado en el Global Game JAM de enero de 2025, en la Ciudad de La Plata, provincia de Buenos Aires, Argentina.",
@@ -39,25 +41,42 @@ export const proyectos = [
     media:
       "https://www.youtube.com/embed/RLenVgm-ZBQ", // or video path
 
-    url: "https://alvaropd.itch.io/translucido"
+    url: "https://alvaropd.itch.io/translucido",
+    boton: "Jugar en itch.io",
   },
 
 
-  {
+ {
     id: 4,
-    titulo: "Prototipo: Carrera atardecer - 2025",
+    titulo: "Prototipo: CrabCave (Diciembre - 2025)",
+    descripcion: [
+      "Bases de un plataformero de resolución de puzzles, en el que debes liberar pequeños cangrejos atrapados para poder salir de una cueva.",
+      "Implementación de animaciones con spreet sheets y hitboxes en fotogramas clave. Creación de escenario 2D a través de texturizado tilling y comportamiento animado de enemigos sencillos.",
+    ],
+    tipo: "imagen", // or "video"
+    media:
+      "https://img.itch.zone/aW1hZ2UvNDEwNjIzMC8yNDQ3Mjc3NS5qcGc=/original/vhiJJJ.jpg", // or video path
+
+    url: "https://alvaropd.itch.io/crabcave",
+    boton: "Jugar en itch.io",
+  },
+
+  {
+    id: 5,
+    titulo: "Prototipo: Carrera atardecer (Marzo - 2025)",
     descripcion: [
       "Bases para runner 3D de recolección de objetos a contrarreloj, con implementación de comportamiento sonoro y ambiental, junto a interacción de objetos del escenario para transmitir tensión.",
       "Programación de eventos coordinados, desarrollo de materiales 2D y animados vía shader graph pipeline para el diseño de objetos acentuados y texturizado de un escenario sintético."
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/Vua1Sc5n-6Y", // or image path
-    url: "https://alvaropd.itch.io/proyecto-carrera-atarceder"
+    url: "https://alvaropd.itch.io/proyecto-carrera-atarceder",
+    boton: "Jugar en itch.io",
   },
 
   {
-    id: 5,
-    titulo: "Prototipo: Crab pond - 2025",
+    id: 6,
+    titulo: "Prototipo: Crab pond (Junio - 2025)",
     descripcion: [
       "Pensado para web y móvil, compone las bases para sandbox de exploración, con personajes de multiples artistas, con los que uno interactúa para que te dirijan a sus portfolios o redes comerciales.",
       "Implementación de NavMesh para comportamiento de personajes, texturas provisorias creadas con shadergraph pipeline e implementación de WebGL para conectividades con URLs.",
@@ -66,12 +85,13 @@ export const proyectos = [
     media:
       "https://img.itch.zone/aW1nLzIyMDU1MDI1LmpwZw==/315x250%23c/BB27Xd.jpg", // or video path
 
-    url: "https://alvaropd.itch.io/proyecto-crab-pond"
+    url: "https://alvaropd.itch.io/proyecto-crab-pond",
+    boton: "Jugar en itch.io",
   },
 
   {
-    id: 6,
-    titulo: "Prototipo: Learning to Shrimp -2025",
+    id: 7,
+    titulo: "Prototipo: Learning to Shrimp (Abril - 2025)",
     descripcion: [
       "Bases para juego de disparos inspirado en clásicos de arcade y Snes, simulando el vuelo por un escenario mediante relieves móviles, resueltos con shadergraph pipeline, y una cámara dispuesta para componer un horizonte.",
     ],
@@ -79,71 +99,77 @@ export const proyectos = [
     media:
       "https://img.itch.zone/aW1hZ2UvMzg0Mjg1MC8yMjkxOTgyMS5qcGc=/original/SQpYWs.jpg", // or video path
 
-    url: "https://alvaropd.itch.io/learning-to-shrimp"
+    url: "https://alvaropd.itch.io/learning-to-shrimp",
+    boton: "Jugar en itch.io",
   },
 
   {
-    id: 7,
-    titulo: "Agome - 2025",
+    id: 8,
+    titulo: "Agome (Septiembre - 2025)",
     descripcion: [
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
     ],
     tipo: "imagen", // or "imagen"
     media: "https://img.itch.zone/aW1hZ2UvMzgwMjA5Ny8yMjY3MTA0Mi5qcGc=/original/cVwYFL.jpg", // or image path
-    url: "https://alvaropd.itch.io/agome"
+    url: "https://alvaropd.itch.io/agome",
+    boton: "Jugar en itch.io",
   },
 
   {
-    id: 8,
-    titulo: "Experiencia creando shaders en Unity - 2025",
+    id: 9,
+    titulo: "Shaders dinamicos creados en Unity pipeline (Marzo - 2025)",
     descripcion: [
       "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
       "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/gcVk5FStjZo", // or image path
-    url: "https://youtu.be/Fj5eTj3e0ak?si=h9glemY_Gk9p9ESA"
+    url: "https://youtu.be/Fj5eTj3e0ak?si=h9glemY_Gk9p9ESA",
+    boton: "Jugar en itch.io",
   },
 
   {
-    id: 9,
-    titulo: "Diseño UX web Portfolio Decápodo - 2025",
+    id: 10,
+    titulo: "Diseño UX web Decápodo (Agosto - 2025)",
     descripcion: [
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
     ],
     tipo: "imagen", // or "imagen"
     media: "--", // or image path
-    url: "https://procediweb.netlify.app/"
+    url: "https://procediweb.netlify.app/",
+    boton: "Jugar en itch.io",
   },
 
   {
-    id: 10,
-    titulo: "Prototipo de blog web - 2024",
+    id: 11,
+    titulo: "Prototipo de blog web (Marzo - 2024)",
     descripcion: [
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
     ],
     tipo: "imagen", // or "imagen"
     media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/ProcediWeb.jpg", // or image path
-    url: "https://procediweb.netlify.app/"
+    url: "https://procediweb.netlify.app/",
+    boton: "Jugar en itch.io",
   },
 
   {
-    id: 11,
-    titulo: "Prototipo de portfolio - 2024",
+    id: 12,
+    titulo: "Prototipo de portfolio (Julio - 2024)",
     descripcion: [
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
       "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
     ],
     tipo: "imagen", // or "imagen"
     media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/Portfolio.jpg", // or image path
-    url: "https://alvaroperezdominguezportfolio.netlify.app/"
+    url: "https://alvaroperezdominguezportfolio.netlify.app/",
+    boton: "Jugar en itch.io",
   },
 
   {
-    id: 12,
+    id: 13,
     titulo: "Edición de video",
     descripcion: [
       "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
@@ -151,11 +177,12 @@ export const proyectos = [
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/exGDEu0X3c8", // or image path
-    url: "https://www.behance.net/gallery/239714951/Edicion-de-video"
+    url: "https://www.behance.net/gallery/239714951/Edicion-de-video",
+    boton: "Jugar en itch.io",
   },
 
   {
-    id: 13,
+    id: 14,
     titulo: "Noviembre Pluri Animado Platense - 2025",
     descripcion: [
       "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
@@ -163,7 +190,8 @@ export const proyectos = [
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/uWsjl1J6vu8", // or image path
-    url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1"
+    url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1",
+    boton: "Jugar en itch.io",
   },
 ];
 

@@ -179,7 +179,8 @@ export default function PortfolioSection() {
               rel="noopener noreferrer"
               className="bg-electric-violet hover:bg-electric-violet/80 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-medium"
             >
-              Ver más
+              {proyectos[proyectoActual].boton || "Ver más"}
+
             </a>
 
           </div>
