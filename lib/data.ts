@@ -9,9 +9,9 @@ export const proyectos = [
     ],
     tipo: "video", // or "imagen"
     media:
-      "https://www.youtube.com/embed/55u-ni2dLa0", // or video path
+      "https://www.youtube.com/embed/4bC0y7lPjzw", // or video path
     url: "https://alvaropd.itch.io/procediverso",
-    boton: "Jugar en itch.io",
+    boton: "Ver en itch.io",
   },
 
   {
@@ -46,11 +46,11 @@ export const proyectos = [
   },
 
 
- {
+  {
     id: 4,
     titulo: "Prototipo: CrabCave (Diciembre - 2025)",
     descripcion: [
-      "Bases de un plataformero de resolución de puzzles, en el que debes liberar pequeños cangrejos atrapados para poder salir de una cueva.",
+      "Bases de un plataformero de resolución de puzzles, desarrollado durante la cursada de Unity 2D de Talento Tech.",
       "Implementación de animaciones con spreet sheets y hitboxes en fotogramas clave. Creación de escenario 2D a través de texturizado tilling y comportamiento animado de enemigos sencillos.",
     ],
     tipo: "imagen", // or "video"
@@ -71,7 +71,7 @@ export const proyectos = [
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/Vua1Sc5n-6Y", // or image path
     url: "https://alvaropd.itch.io/proyecto-carrera-atarceder",
-    boton: "Jugar en itch.io",
+    boton: "Probar en itch.io",
   },
 
   {
@@ -86,7 +86,7 @@ export const proyectos = [
       "https://img.itch.zone/aW1nLzIyMDU1MDI1LmpwZw==/315x250%23c/BB27Xd.jpg", // or video path
 
     url: "https://alvaropd.itch.io/proyecto-crab-pond",
-    boton: "Jugar en itch.io",
+    boton: "Probar en itch.io",
   },
 
   {
@@ -100,33 +100,33 @@ export const proyectos = [
       "https://img.itch.zone/aW1hZ2UvMzg0Mjg1MC8yMjkxOTgyMS5qcGc=/original/SQpYWs.jpg", // or video path
 
     url: "https://alvaropd.itch.io/learning-to-shrimp",
-    boton: "Jugar en itch.io",
+    boton: "Probar en itch.io",
   },
-
-  {
-    id: 8,
-    titulo: "Agome (Septiembre - 2025)",
-    descripcion: [
-      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
-      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
-    ],
-    tipo: "imagen", // or "imagen"
-    media: "https://img.itch.zone/aW1hZ2UvMzgwMjA5Ny8yMjY3MTA0Mi5qcGc=/original/cVwYFL.jpg", // or image path
-    url: "https://alvaropd.itch.io/agome",
-    boton: "Jugar en itch.io",
-  },
-
+  /*
+    {
+      
+      id: 8,
+      titulo: "Agome (Septiembre - 2025)",
+      descripcion: [
+        "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+        "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+      ],
+      tipo: "imagen", // or "imagen"
+      media: "https://img.itch.zone/aW1hZ2UvMzgwMjA5Ny8yMjY3MTA0Mi5qcGc=/original/cVwYFL.jpg", // or image path
+      url: "https://alvaropd.itch.io/agome",
+      boton: "Jugar en itch.io",
+    },
+  */
   {
     id: 9,
     titulo: "Shaders dinamicos creados en Unity pipeline (Marzo - 2025)",
     descripcion: [
-      "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
-      "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
+      "Creación de shaders personalizados, dinámicos y versátiles para soluciones visuales."
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/gcVk5FStjZo", // or image path
     url: "https://youtu.be/Fj5eTj3e0ak?si=h9glemY_Gk9p9ESA",
-    boton: "Jugar en itch.io",
+    boton: "Ver más",
   },
 
   {
@@ -139,7 +139,7 @@ export const proyectos = [
     tipo: "imagen", // or "imagen"
     media: "--", // or image path
     url: "https://procediweb.netlify.app/",
-    boton: "Jugar en itch.io",
+    boton: "Ver en Behance",
   },
 
   {
@@ -152,7 +152,7 @@ export const proyectos = [
     tipo: "imagen", // or "imagen"
     media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/ProcediWeb.jpg", // or image path
     url: "https://procediweb.netlify.app/",
-    boton: "Jugar en itch.io",
+    boton: "Ir a la web",
   },
 
   {
@@ -165,20 +165,19 @@ export const proyectos = [
     tipo: "imagen", // or "imagen"
     media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/Portfolio.jpg", // or image path
     url: "https://alvaroperezdominguezportfolio.netlify.app/",
-    boton: "Jugar en itch.io",
+    boton: "Ir a la web",
   },
 
   {
     id: 13,
     titulo: "Edición de video",
     descripcion: [
-      "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
-      "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
+      "Implementando conocimientos de sonido, sincronización musical y comunicación, he producido una variedad de piezas audiovisuales. Desde aquellas que optan por un montaje técnico y más artístico, pasando por reels publicitarios, hasta registros guionados de proyectos interactivos."
     ],
     tipo: "video", // or "imagen"
-    media: "https://www.youtube.com/embed/exGDEu0X3c8", // or image path
+    media: "https://www.youtube.com/embed/BPIXXrpHp10", // or image path
     url: "https://www.behance.net/gallery/239714951/Edicion-de-video",
-    boton: "Jugar en itch.io",
+    boton: "Ver más en Behance",
   },
 
   {
@@ -191,7 +190,7 @@ export const proyectos = [
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/uWsjl1J6vu8", // or image path
     url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1",
-    boton: "Jugar en itch.io",
+    boton: "Ver agenda en instagram",
   },
 ];
 
@@ -200,28 +199,28 @@ export const servicios = [
     id: 1,
     nombre: "Consultoría en Game Design",
     descripcion: [
-      "Análisis y optimización de mecánicas existentes, balanceado de gameplay y mejora de la experiencia del usuario. Trabajo colaborativo con equipos para refinar conceptos y sistemas de juego.",
+      "Ayudo a mejorar sistemas de juego ya existentes, ajustando mecánicas, ritmo y balance para que la experiencia sea más clara y divertida. Trabajo junto a tu equipo para afinar ideas, detectar problemas y fortalecer la dirección del gameplay.",
     ],
   },
   {
     id: 2,
     nombre: "Desarrollo Narrativo",
     descripcion: [
-      "Creación de historias interactivas, desarrollo de personajes profundos y construcción de mundos coherentes. Especialización en narrativa ramificada y sistemas de diálogo dinámicos.",
+      "Diseño historias interactivas y sistemas narrativos que acompañan al gameplay: personajes claros, mundos coherentes y diálogos funcionales.",
     ],
   },
   {
     id: 3,
     nombre: "Prototipado en Unity",
     descripcion: [
-      "Implementación técnica de conceptos de juego, desde mecánicas básicas hasta sistemas complejos. Desarrollo de prototipos jugables para validar ideas y comunicar visiones.",
+      "Implementación técnica de mecánicas, sistemas de interacción, UI y lógica compleja en Unity. Desarrollo de prototipos jugables para agilizar decisiones de diseño.",
     ],
   },
   {
     id: 4,
     nombre: "Planificación Estética",
     descripcion: [
-      "Definición de dirección artística, creación de guías de estilo visual y coordinación entre equipos de arte y desarrollo para mantener coherencia estética.",],
+      "Ayudo a definir la dirección visual de un proyecto y a mantener la coherencia estética entre arte y desarrollo. Creo guías simples y aplicables para que todos trabajen alineados, sin perder la identidad del juego.",],
   },
 
   {
