@@ -173,15 +173,19 @@ export default function PortfolioSection() {
                 </p>
               ))}
             </div>
-            <a
-              href={proyectos[proyectoActual].url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-electric-violet hover:bg-electric-violet/80 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-medium"
-            >
-              {proyectos[proyectoActual].boton || "Ver más"}
-
-            </a>
+          <div className="flex w-full gap-4 justify-evenly">
+  {(proyectos[proyectoActual].botones || []).map((btn, index) => (
+    <a
+      key={index}
+      href={btn.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-electric-violet hover:bg-electric-violet/80 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-medium"
+    >
+      {btn.texto}
+    </a>
+  ))}
+</div>
 
           </div>
 

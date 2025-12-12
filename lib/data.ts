@@ -11,7 +11,19 @@ export const proyectos = [
     media:
       "https://www.youtube.com/embed/4bC0y7lPjzw", // or video path
     url: "https://alvaropd.itch.io/procediverso",
-    boton: "Ver en itch.io",
+
+botones: [
+    {
+      texto: "Ver en itch.io",
+      url: "https://alvaropd.itch.io/procediverso",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/Procediverso.Proyecto-Unity",
+    }
+  ]
+
+
   },
 
   {
@@ -25,8 +37,18 @@ export const proyectos = [
     media:
       "https://www.youtube.com/embed/1TYBFmS8B1c", // or video path
 
-    url: "https://alvaropd.itch.io/fuerzas-de-la-calle",
-    boton: "Jugar en itch.io",
+
+botones: [
+    {
+      texto: "Jugar en itch.io",
+      url: "https://alvaropd.itch.io/fuerzas-de-la-calle",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/JAM-Jubilados",
+    }
+  ]
+
   },
 
   {
@@ -41,8 +63,16 @@ export const proyectos = [
     media:
       "https://www.youtube.com/embed/RLenVgm-ZBQ", // or video path
 
-    url: "https://alvaropd.itch.io/translucido",
-    boton: "Jugar en itch.io",
+botones: [
+    {
+      texto: "Jugar en itch.io",
+      url: "https://alvaropd.itch.io/translucido",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/Translucido.Proyecto-Unity",
+    }
+  ]
   },
 
 
@@ -57,8 +87,17 @@ export const proyectos = [
     media:
       "https://img.itch.zone/aW1hZ2UvNDEwNjIzMC8yNDQ3Mjc3NS5qcGc=/original/vhiJJJ.jpg", // or video path
 
-    url: "https://alvaropd.itch.io/crabcave",
-    boton: "Jugar en itch.io",
+botones: [
+    {
+      texto: "Jugar en itch.io",
+      url: "https://alvaropd.itch.io/crabcave",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/CrabCave",
+    }
+  ]
+
   },
 
   {
@@ -70,8 +109,17 @@ export const proyectos = [
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/Vua1Sc5n-6Y", // or image path
-    url: "https://alvaropd.itch.io/proyecto-carrera-atarceder",
-    boton: "Probar en itch.io",
+
+botones: [
+    {
+      texto: "Probar en itch.io",
+      url: "https://alvaropd.itch.io/proyecto-carrera-atarceder",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/CarreraAtarceder",
+    }
+  ]
   },
 
   {
@@ -85,8 +133,16 @@ export const proyectos = [
     media:
       "https://img.itch.zone/aW1nLzIyMDU1MDI1LmpwZw==/315x250%23c/BB27Xd.jpg", // or video path
 
-    url: "https://alvaropd.itch.io/proyecto-crab-pond",
-    boton: "Probar en itch.io",
+botones: [
+    {
+      texto: "Probar en itch.io",
+      url: "https://alvaropd.itch.io/proyecto-crab-pond",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/Proyecto-Crab-Pond",
+    }
+  ]
   },
 
   {
@@ -99,8 +155,17 @@ export const proyectos = [
     media:
       "https://img.itch.zone/aW1hZ2UvMzg0Mjg1MC8yMjkxOTgyMS5qcGc=/original/SQpYWs.jpg", // or video path
 
-    url: "https://alvaropd.itch.io/learning-to-shrimp",
-    boton: "Probar en itch.io",
+botones: [
+    {
+      texto: "Probar en itch.io",
+      url: "https://alvaropd.itch.io/learning-to-shrimp",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/LearningToShrimp",
+    }
+  ]
+
   },
   /*
     {
@@ -113,8 +178,17 @@ export const proyectos = [
       ],
       tipo: "imagen", // or "imagen"
       media: "https://img.itch.zone/aW1hZ2UvMzgwMjA5Ny8yMjY3MTA0Mi5qcGc=/original/cVwYFL.jpg", // or image path
+      
+      botones: [
+    {
+      texto: "Probar en itch.io",
       url: "https://alvaropd.itch.io/agome",
-      boton: "Jugar en itch.io",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/LearningToShrimp",
+    }
+  ]      
     },
   */
   {
@@ -125,8 +199,18 @@ export const proyectos = [
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/gcVk5FStjZo", // or image path
-    url: "https://youtu.be/Fj5eTj3e0ak?si=h9glemY_Gk9p9ESA",
-    boton: "Ver más",
+
+botones: [
+    {
+      texto: "Ver más",
+      url: "https://youtu.be/Fj5eTj3e0ak?si=h9glemY_Gk9p9ESA",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/ShadersExpo1",
+    }
+  ]    
+    
   },
 
   {
@@ -138,8 +222,18 @@ export const proyectos = [
     ],
     tipo: "imagen", // or "imagen"
     media: "--", // or image path
-    url: "https://procediweb.netlify.app/",
-    boton: "Ver en Behance",
+
+botones: [
+    {
+      texto: "Ver en Behance",
+      url: "https://www.behance.net/gallery/240223413/Diseno-UX-web-portfolio-Decapodo-Game-Design#",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/PortfolioDecapodo",
+    }
+  ]   
+    
   },
 
   {
@@ -151,8 +245,18 @@ export const proyectos = [
     ],
     tipo: "imagen", // or "imagen"
     media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/ProcediWeb.jpg", // or image path
-    url: "https://procediweb.netlify.app/",
-    boton: "Ir a la web",
+    
+    botones: [
+    {
+      texto: "Ir a la web",
+      url: "https://procediweb.netlify.app/",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/ProcediWeb",
+    }
+  ]   
+
   },
 
   {
@@ -164,8 +268,18 @@ export const proyectos = [
     ],
     tipo: "imagen", // or "imagen"
     media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/Portfolio.jpg", // or image path
-    url: "https://alvaroperezdominguezportfolio.netlify.app/",
-    boton: "Ir a la web",
+    
+    botones: [
+    {
+      texto: "Ir a la web",
+      url: "https://alvaroperezdominguezportfolio.netlify.app/",
+    },
+    {
+      texto: "Ver en GitHub",
+      url: "https://github.com/alvaroPD00/MiPortfolioWeb",
+    }
+  ]   
+    
   },
 
   {
@@ -176,8 +290,18 @@ export const proyectos = [
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/BPIXXrpHp10", // or image path
-    url: "https://www.behance.net/gallery/239714951/Edicion-de-video",
-    boton: "Ver más en Behance",
+
+botones: [
+    {
+      texto: "Ver más en Behance",
+      url: "https://www.behance.net/gallery/239714951/Edicion-de-video",
+    },
+    {
+      texto: "Ver más en YouTube",
+      url: "https://www.youtube.com/@AlvaroDec%C3%A1podo",
+    }
+  ]   
+
   },
 
   {
@@ -189,8 +313,17 @@ export const proyectos = [
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/uWsjl1J6vu8", // or image path
-    url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1",
-    boton: "Ver agenda en instagram",
+
+botones: [
+    {
+      texto: "Ver agenda en instagram",
+      url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1",
+    },
+    {
+      texto: "(Montar behance)",
+      url: "----",
+    }
+  ]   
   },
 ];
 
