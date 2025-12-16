@@ -12,16 +12,16 @@ export const proyectos = [
       "https://www.youtube.com/embed/4bC0y7lPjzw", // or video path
     url: "https://alvaropd.itch.io/procediverso",
 
-botones: [
-    {
-      texto: "Ver en itch.io",
-      url: "https://alvaropd.itch.io/procediverso",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/Procediverso.Proyecto-Unity",
-    }
-  ]
+    botones: [
+      {
+        texto: "Ver en itch.io",
+        url: "https://alvaropd.itch.io/procediverso",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/Procediverso.Proyecto-Unity",
+      }
+    ]
 
 
   },
@@ -38,16 +38,16 @@ botones: [
       "https://www.youtube.com/embed/1TYBFmS8B1c", // or video path
 
 
-botones: [
-    {
-      texto: "Jugar en itch.io",
-      url: "https://alvaropd.itch.io/fuerzas-de-la-calle",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/JAM-Jubilados",
-    }
-  ]
+    botones: [
+      {
+        texto: "Jugar en itch.io",
+        url: "https://alvaropd.itch.io/fuerzas-de-la-calle",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/JAM-Jubilados",
+      }
+    ]
 
   },
 
@@ -63,16 +63,16 @@ botones: [
     media:
       "https://www.youtube.com/embed/RLenVgm-ZBQ", // or video path
 
-botones: [
-    {
-      texto: "Jugar en itch.io",
-      url: "https://alvaropd.itch.io/translucido",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/Translucido.Proyecto-Unity",
-    }
-  ]
+    botones: [
+      {
+        texto: "Jugar en itch.io",
+        url: "https://alvaropd.itch.io/translucido",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/Translucido.Proyecto-Unity",
+      }
+    ]
   },
 
 
@@ -87,16 +87,16 @@ botones: [
     media:
       "https://img.itch.zone/aW1hZ2UvNDEwNjIzMC8yNDQ3Mjc3NS5qcGc=/original/vhiJJJ.jpg", // or video path
 
-botones: [
-    {
-      texto: "Jugar en itch.io",
-      url: "https://alvaropd.itch.io/crabcave",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/CrabCave",
-    }
-  ]
+    botones: [
+      {
+        texto: "Jugar en itch.io",
+        url: "https://alvaropd.itch.io/crabcave",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/CrabCave",
+      }
+    ]
 
   },
 
@@ -110,16 +110,16 @@ botones: [
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/Vua1Sc5n-6Y", // or image path
 
-botones: [
-    {
-      texto: "Probar en itch.io",
-      url: "https://alvaropd.itch.io/proyecto-carrera-atarceder",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/CarreraAtarceder",
-    }
-  ]
+    botones: [
+      {
+        texto: "Probar en itch.io",
+        url: "https://alvaropd.itch.io/proyecto-carrera-atarceder",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/CarreraAtarceder",
+      }
+    ]
   },
 
   {
@@ -133,16 +133,16 @@ botones: [
     media:
       "https://img.itch.zone/aW1nLzIyMDU1MDI1LmpwZw==/315x250%23c/BB27Xd.jpg", // or video path
 
-botones: [
-    {
-      texto: "Probar en itch.io",
-      url: "https://alvaropd.itch.io/proyecto-crab-pond",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/Proyecto-Crab-Pond",
-    }
-  ]
+    botones: [
+      {
+        texto: "Probar en itch.io",
+        url: "https://alvaropd.itch.io/proyecto-crab-pond",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/Proyecto-Crab-Pond",
+      }
+    ]
   },
 
   {
@@ -155,16 +155,16 @@ botones: [
     media:
       "https://img.itch.zone/aW1hZ2UvMzg0Mjg1MC8yMjkxOTgyMS5qcGc=/original/SQpYWs.jpg", // or video path
 
-botones: [
-    {
-      texto: "Probar en itch.io",
-      url: "https://alvaropd.itch.io/learning-to-shrimp",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/LearningToShrimp",
-    }
-  ]
+    botones: [
+      {
+        texto: "Probar en itch.io",
+        url: "https://alvaropd.itch.io/learning-to-shrimp",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/LearningToShrimp",
+      }
+    ]
 
   },
   /*
@@ -193,69 +193,70 @@ botones: [
   */
   {
     id: 9,
-    titulo: "Shaders dinamicos creados en Unity pipeline (Marzo - 2025)",
+    titulo: "Shaders dinamicos creados en Unity (Marzo - 2025)",
     descripcion: [
-      "Creación de shaders personalizados, dinámicos y versátiles para soluciones visuales."
+      "Creación de shaders personalizados, dinámicos y versátiles para soluciones visuales.",
+      "Resueltos con shader graph pipeline, el sistema de gráfico de nodos de Unity.",
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/gcVk5FStjZo", // or image path
 
-botones: [
-    {
-      texto: "Ver más",
-      url: "https://youtu.be/Fj5eTj3e0ak?si=h9glemY_Gk9p9ESA",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/ShadersExpo1",
-    }
-  ]    
-    
+    botones: [
+      {
+        texto: "Ver más",
+        url: "https://youtu.be/Fj5eTj3e0ak?si=h9glemY_Gk9p9ESA",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/ShadersExpo1",
+      }
+    ]
+
   },
 
   {
     id: 10,
     titulo: "Diseño UX web Decápodo (Agosto - 2025)",
     descripcion: [
-      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
-      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+      "Desarrollado en el marco de la cursada del taller virtual de Diseño UXUI para sitios web, de la secretaría de extensión de la Facultad De Artes de la UNLP.",
+      "Maquetado en Figma, con implementación de assets y recursos resueltos en illustrator, photoshop y premiere.",
     ],
     tipo: "imagen", // or "imagen"
-    media: "--", // or image path
+    media: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/191f03240223413.6939c5f3d7c33.jpg", // or image path
 
-botones: [
-    {
-      texto: "Ver en Behance",
-      url: "https://www.behance.net/gallery/240223413/Diseno-UX-web-portfolio-Decapodo-Game-Design#",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/PortfolioDecapodo",
-    }
-  ]   
-    
+    botones: [
+      {
+        texto: "Ver en Behance",
+        url: "https://www.behance.net/gallery/240223413/Diseno-UX-web-portfolio-Decapodo-Game-Design#",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/PortfolioDecapodo",
+      }
+    ]
+
   },
 
   {
     id: 11,
     titulo: "Prototipo de blog web (Marzo - 2024)",
     descripcion: [
-      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
-      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+      "Blog sobre el desarrollo de mi tesis Procediverso. Con detalle de conceptos detonantes, accesos a la tesis escrita y la web de la cátedra, y una paleta monocolor que varía en cada carga.",
+      "Implementación responsive completa con HTML, CSS y JS, con assets y recursos resueltos en illustrator, photoshop y premiere.",
     ],
     tipo: "imagen", // or "imagen"
     media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/ProcediWeb.jpg", // or image path
-    
+
     botones: [
-    {
-      texto: "Ir a la web",
-      url: "https://procediweb.netlify.app/",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/ProcediWeb",
-    }
-  ]   
+      {
+        texto: "Ir a la web",
+        url: "https://procediweb.netlify.app/",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/ProcediWeb",
+      }
+    ]
 
   },
 
@@ -263,23 +264,23 @@ botones: [
     id: 12,
     titulo: "Prototipo de portfolio (Julio - 2024)",
     descripcion: [
-      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
-      "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
+      "Desarrollado en el marco de la cursada del curso de Diseño de Página Web, de la dirección de educación técnico profesional de la provincia de Buenos Aires.",
+      "Implementación responsive completa con HTML y CSS, con assets y recursos resueltos en illustrator, photoshop y premiere.",
     ],
     tipo: "imagen", // or "imagen"
     media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/Portfolio.jpg", // or image path
-    
+
     botones: [
-    {
-      texto: "Ir a la web",
-      url: "https://alvaroperezdominguezportfolio.netlify.app/",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/MiPortfolioWeb",
-    }
-  ]   
-    
+      {
+        texto: "Ir a la web",
+        url: "https://alvaroperezdominguezportfolio.netlify.app/",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/MiPortfolioWeb",
+      }
+    ]
+
   },
 
   {
@@ -291,16 +292,16 @@ botones: [
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/BPIXXrpHp10", // or image path
 
-botones: [
-    {
-      texto: "Ver más en Behance",
-      url: "https://www.behance.net/gallery/239714951/Edicion-de-video",
-    },
-    {
-      texto: "Ver más en YouTube",
-      url: "https://www.youtube.com/@AlvaroDec%C3%A1podo",
-    }
-  ]   
+    botones: [
+      {
+        texto: "Ver más en Behance",
+        url: "https://www.behance.net/gallery/239714951/Edicion-de-video",
+      },
+      {
+        texto: "Ver más en YouTube",
+        url: "https://www.youtube.com/@AlvaroDec%C3%A1podo",
+      }
+    ]
 
   },
 
@@ -308,22 +309,22 @@ botones: [
     id: 14,
     titulo: "Noviembre Pluri Animado Platense - 2025",
     descripcion: [
-      "Pieza creada para ser proyectada en la muestra Prismatica Vol.#1, organizada por @___prismatica en @lafrikioteca. Musica por @yuuko__x, Montaje audiovisual por @alvarete.p.d",
-      "Combina narrativa simbólica, mecánicas contemplativas y un estilo visual inspirado en paisajes oníricos y fragmentados."
+      "Evento que coordinó múltiples proyectos multidisciplinarios en una misma agenda, buscando reunir y visibilizar el nicho de animación emergente local, como el trabajo de artistas digitales de la ciudad de La Plata.",
+      "La campaña de difusión y convocatoria se extendió durante al menos dos meses, implementando piezas publicitarias resueltas en illustrator, photoshop, premiere, google forms y canva."
     ],
     tipo: "video", // or "imagen"
     media: "https://www.youtube.com/embed/uWsjl1J6vu8", // or image path
 
-botones: [
-    {
-      texto: "Ver agenda en instagram",
-      url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1",
-    },
-    {
-      texto: "(Montar behance)",
-      url: "----",
-    }
-  ]   
+    botones: [
+      {
+        texto: "Ver agenda en instagram",
+        url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1",
+      },
+      {
+        texto: "(Montar behance)",
+        url: "----",
+      }
+    ]
   },
 ];
 
@@ -430,9 +431,9 @@ export const certificaciones = [
 
   {
     fecha: "Marzo - Julio (2024)",
-    titulo: "Diseño Web",
+    titulo: "Diseño de Pagina Web",
     descripcion:
-      "Ministerio de trabajo - Provincia de Buenos Aires",
+      "Dirección de educación técnico profesional de la provincia de Buenos Aires",
     url: "https://drive.google.com/file/d/1ZFqgkZWFJYqCLmegxWXfGIr954Y2cXZx/view?usp=sharing"
   },
   {
