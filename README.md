@@ -1,3 +1,16 @@
+Desarrollado en el marco de la cursada del taller virtual de Diseño UXUI para sitios web, de la secretaría de extensión de la Facultad De Artes de la UNLP.
+
+Me propuse volcar mi identidad profesional en una landing page que conecte todas mis redes laborales, a la vez de exhibir mis proyectos y certificaciones afines.
+
+Maquetado en Figma, con implementación de assets y recursos resueltos en illustrator, photoshop y premiere.
+
+El mismo se encuentra montado y funcionando en la URL [decapodoportfolio.netlify.app](https://decapodoportfolio.netlify.app/)
+
+Su articulo de github en [github.com/alvaroPD00/PortfolioDecapodo](https://github.com/alvaroPD00/PortfolioDecapodo). 
+
+También podes ver su prototipo de figma siguiendo [este link](https://www.figma.com/proto/3LlAWVr7QQlCFPyHeKkyqM/decapodo-portfolio?node-id=219-238&p=f&t=9NOobLUiu3qKzEOv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%253A1)
+
+--------------------------------------------------------------------------------------------------
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
