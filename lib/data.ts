@@ -321,8 +321,8 @@ export const proyectos = [
         url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1",
       },
       {
-        texto: "(Montar behance)",
-        url: "----",
+        texto: "Ver en Behance",
+        url: "https://www.behance.net/gallery/240649937/Noviembre-Pluri-Animado-Platense",
       }
     ]
   },
@@ -377,13 +377,13 @@ export const servicios = [
 export const certificaciones = [
   {
     fecha: "2016 - 2023",
-    titulo: "Licenciatura en diseño multimedial",
+    titulo: "Carrera de grado: Licenciatura en diseño multimedial",
     descripcion:
       "Facutad De Artes - Universidad Nacional de La Plata",
     url: "https://drive.google.com/file/d/1-UT7SUU-5itofh_9t4BaJ0003esTP2G3/view?usp=sharing"
   },
   {
-    fecha: "Septiembre - Diciembre (2022)",
+    fecha: "Septiembre - Diciembre 2022",
     titulo: "Ideá Tu Videojuego 2",
     descripcion:
       "Gobierno de la Ciudad de Buenos Aires",
@@ -391,11 +391,11 @@ export const certificaciones = [
   },
 
   {
-    fecha: "Cursando",
-    titulo: "Unity 2D",
+    fecha: "Agosto - Noviembre 2025",
+    titulo: "Programación en Unity 2D",
     descripcion:
-      "Talento Tech",
-    url: "-"
+      "Gobierno de la Ciudad de Buenos Aires",
+    url: "https://drive.google.com/file/d/1bXDsTaEU3Wzri8pVNK8V-0gFsxWqXeyM/view?usp=sharing"
   },
 
 
