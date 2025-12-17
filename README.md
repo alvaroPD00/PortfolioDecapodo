@@ -6,7 +6,7 @@ Maquetado en Figma, con implementación de assets y recursos resueltos en illust
 
 El mismo se encuentra montado y funcionando en la URL [decapodoportfolio.netlify.app](https://decapodoportfolio.netlify.app/)
 
-Su articulo de github en [github.com/alvaroPD00/PortfolioDecapodo](https://github.com/alvaroPD00/PortfolioDecapodo). 
+Su articulo de Behance en [behance.net/gallery/240223413/Diseno-UX-web-portfolio-Decapodo-Game-Design#](https://www.behance.net/gallery/240223413/Diseno-UX-web-portfolio-Decapodo-Game-Design#). 
 
 También podes ver su prototipo de figma siguiendo [este link](https://www.figma.com/proto/3LlAWVr7QQlCFPyHeKkyqM/decapodo-portfolio?node-id=219-238&p=f&t=9NOobLUiu3qKzEOv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%253A1)
 
