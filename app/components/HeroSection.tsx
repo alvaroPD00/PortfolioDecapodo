@@ -20,7 +20,7 @@ export default function HeroSection() {
         <video
           autoPlay
           loop
-          muted
+          muted 
           playsInline
           className="absolute w-full h-full object-cover object-top"
         >
