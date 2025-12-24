@@ -333,40 +333,47 @@ export const servicios = [
     id: 1,
     nombre: "Consultoría en Game Design",
     descripcion: [
-      "Ayudo a mejorar sistemas de juego ya existentes, ajustando mecánicas, ritmo y balance para que la experiencia sea más clara y divertida. Trabajo junto a tu equipo para afinar ideas, detectar problemas y fortalecer la dirección del gameplay.",
+      "Análisis y optimización de sistemas de juego existentes. Ajuste de mecánicas, ritmo y balance para mejorar claridad, flujo y experiencia del jugador. Trabajo colaborativo con equipos para detectar problemas, ordenar ideas y fortalecer la dirección del gameplay.",
     ],
   },
   {
     id: 2,
     nombre: "Desarrollo Narrativo",
     descripcion: [
-      "Diseño historias interactivas y sistemas narrativos que acompañan al gameplay: personajes claros, mundos coherentes y diálogos funcionales.",
+      "Diseño de historias interactivas y sistemas narrativos integrados al gameplay. Desarrollo de personajes, mundos y diálogos que refuerzan la coherencia narrativa y acompañan la experiencia de juego.",
     ],
   },
   {
     id: 3,
     nombre: "Prototipado en Unity",
     descripcion: [
-      "Implementación técnica de mecánicas, sistemas de interacción, UI y lógica compleja en Unity. Desarrollo de prototipos jugables para agilizar decisiones de diseño.",
+      "Implementación de mecánicas, sistemas de interacción, UI y lógica de juego en Unity. Desarrollo de prototipos jugables para testear ideas, tomar decisiones de diseño y avanzar con mayor claridad durante la producción.",
     ],
   },
   {
     id: 4,
     nombre: "Planificación Estética",
     descripcion: [
-      "Ayudo a definir la dirección visual de un proyecto y a mantener la coherencia estética entre arte y desarrollo. Creo guías simples y aplicables para que todos trabajen alineados, sin perder la identidad del juego.",],
+      "Definición de la dirección visual de un proyecto y articulación entre arte y desarrollo. Creación de guías claras y aplicables para mantener coherencia estética sin perder identidad ni flexibilidad durante la producción.",],
+  },
+
+ {
+    id: 5,
+    nombre: "Soporte para Proyectos Multidisciplinarios",
+    descripcion: [
+      "Acompañamiento técnico y creativo en proyectos audiovisuales, interactivos y experimentales (animación, mapping, instalaciones, experiencias digitales). Organización, edición e integración de material para facilitar la producción y el trabajo en equipo.",],
   },
 
   {
-    id: 5,
-    nombre: "Otros",
+    id: 6,
+    nombre: "Servicios complementarios",
     descripcion: [
-      "- Diseño UI/UX, Mobile y Web.",
-      "- Desarrollo de branding e identidad.",
-      "- Edición de video y contenidos, para redes y proyectos multidisciplinarios.",
+      "- Diseño UI/UX (Web y Mobile)",
+      "- Branding e identidad.",
+      "- Edición de video y contenidos para redes",
       "- Producción de contenido educativo.",
-      "- Community Manager.",
-      "- Consultar.",
+      "- Community management.",
+      "- Consultar según necesidad del proyecto.",
     ],
   },
 

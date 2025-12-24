@@ -58,11 +58,10 @@ export default function HeroSection() {
           </h1>
         </div>
         <h3 className="text-xl md:text-2xl  text-white mb-4">
-          Transformo ideas creativas en experiencias jugables.
+          Diseño y desarrollo experiencias jugables.
         </h3>
         <p className="text-lg md:text-xl text-white max-w-2xl mx-auto mb-8">
-          Especializado en narrativa, planificación estética e implementación en
-          Unity.
+          Game design, narrativa y prototipado para transformar ideas en sistemas funcionales.
         </p>
       </div>
     </section>
