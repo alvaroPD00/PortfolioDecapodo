@@ -357,7 +357,7 @@ export const servicios = [
       "Definición de la dirección visual de un proyecto y articulación entre arte y desarrollo. Creación de guías claras y aplicables para mantener coherencia estética sin perder identidad ni flexibilidad durante la producción.",],
   },
 
- {
+  {
     id: 5,
     nombre: "Soporte para Proyectos Multidisciplinarios",
     descripcion: [
@@ -405,6 +405,14 @@ export const certificaciones = [
     url: "https://drive.google.com/file/d/1bXDsTaEU3Wzri8pVNK8V-0gFsxWqXeyM/view?usp=sharing"
   },
 
+
+  {
+    fecha: "Septiembre - 2025",
+    titulo: "Videojuegos desde Cero",
+    descripcion:
+      "ADVA - Capacitar",
+    url: "https://drive.google.com/file/d/1ArSYUpkwN6GxCbpCx56Gyy4l5ggCMNk5/view?usp=sharing"
+  },
 
   {
     fecha: "Abril - Julio 2025",
