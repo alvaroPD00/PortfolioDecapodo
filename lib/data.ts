@@ -222,7 +222,7 @@ export const proyectos = [
       "Maquetado en Figma, con implementación de assets y recursos resueltos en illustrator, photoshop y premiere.",
     ],
     tipo: "imagen", // or "imagen"
-    media: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/191f03240223413.6939c5f3d7c33.jpg", // or image path
+    media: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/640462240223413.6940cbd82d4a6.jpg", // or image path
 
     botones: [
       {
