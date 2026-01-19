@@ -167,11 +167,12 @@ export default function ContactSection() {
               }`}
             >
               <option value="">Selecciona una opción</option>
-              <option value="consultoria">Consultoría</option>
-              <option value="desarrollo">Desarrollo completo</option>
-              <option value="prototipo">Prototipado</option>
-              <option value="narrativa">Diseño narrativo</option>
-              <option value="otro">Otro</option>
+              <option value="Consultoría en Game Design">Consultoría en Game Design</option>
+              <option value="Desarrollo Narrativo">Desarrollo Narrativo</option>
+              <option value="Planificación Estética">Planificación Estética</option>
+              <option value="Soporte para Proyectos Multidisciplinarios">Soporte para Proyectos Multidisciplinarios</option>
+              <option value="Diseño UX/UI y prototipado web">Diseño UX/UI y prototipado web</option>
+              <option value="Servicios complementarios">Servicios complementarios</option>
             </select>
             {formErrors.tipoProyecto && (
               <p className="text-red-400 text-sm mt-1">
