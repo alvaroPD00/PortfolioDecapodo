@@ -364,11 +364,17 @@ export const servicios = [
       "Acompañamiento técnico y creativo en proyectos audiovisuales, interactivos y experimentales (animación, mapping, instalaciones, experiencias digitales). Organización, edición e integración de material para facilitar la producción y el trabajo en equipo.",],
   },
 
-  {
+{
     id: 6,
+    nombre: "Diseño y prototipado web con enfoque UX/UI y comprensión técnica",
+    descripcion: [
+      "Desarrollo de arquitectura de información, wireframes y prototipos en Figma para sitios y productos digitales. Acompaño proyectos web desde el diseño hasta su implementación, con capacidad para intervenir sobre bases de código existentes, realizar ajustes y ampliar secciones en arquitecturas ya definidas, facilitando el trabajo conjunto con equipos de desarrollo.",],
+  },
+
+  {
+    id: 7,
     nombre: "Servicios complementarios",
     descripcion: [
-      "- Diseño UI/UX (Web y Mobile)",
       "- Branding e identidad.",
       "- Edición de video y contenidos para redes",
       "- Producción de contenido educativo.",
