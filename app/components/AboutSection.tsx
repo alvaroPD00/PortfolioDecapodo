@@ -9,8 +9,7 @@ export default function AboutSection() {
         </h2>
         <div className="text-white space-y-6 text-lg leading-relaxed mb-12">
           <p>
-            Soy Álvaro, graduado de la <b>Licenciatura en Diseño Multimedial</b> (UNLP), una disciplina que integra diseño, tecnología y comunicación para crear experiencias, contenidos y sistemas interactivos en entornos digitales.
-          </p>
+          Soy Álvaro, graduado de la <b>Licenciatura en Diseño Multimedial</b> (UNLP), una disciplina que integra diseño, programación y comunicación para el desarrollo de experiencias, sistemas interactivos y proyectos web. </p>
           <p>
             Me especializo en <b>game design</b> y desarrollo en <b>Unity</b>. Diseño mecánicas, narrativa y sistemas jugables, trabajando desde la programación y el prototipado para resolver problemas, orientar decisiones y asegurar coherencia técnica y creativa en cada proyecto.
           </p>
