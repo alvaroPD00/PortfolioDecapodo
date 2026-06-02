@@ -156,7 +156,7 @@ export default function PortfolioSection() {
 
         <div className="mb-12">
           <p className="text-black text-lg leading-relaxed">
-            Las siguientes entradas muestran la variedad de proyectos y disciplinas en las que me he desempeñado.
+            Acá reúno una selección de proyectos desarrollados en distintos contextos, equipos y disciplinas. Cada uno implicó desafíos diferentes y la oportunidad de aportar desde distintos roles, adaptando herramientas y procesos para acompañar objetivos concretos.
           </p>
         </div>
 
@@ -173,19 +173,19 @@ export default function PortfolioSection() {
                 </p>
               ))}
             </div>
-          <div className="flex w-full gap-4 justify-evenly">
-  {(proyectos[proyectoActual].botones || []).map((btn, index) => (
-    <a
-      key={index}
-      href={btn.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="bg-electric-violet hover:bg-electric-violet/80 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-medium"
-    >
-      {btn.texto}
-    </a>
-  ))}
-</div>
+            <div className="flex w-full gap-4 justify-evenly">
+              {(proyectos[proyectoActual].botones || []).map((btn, index) => (
+                <a
+                  key={index}
+                  href={btn.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-electric-violet hover:bg-electric-violet/80 text-white px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center font-medium"
+                >
+                  {btn.texto}
+                </a>
+              ))}
+            </div>
 
           </div>
 

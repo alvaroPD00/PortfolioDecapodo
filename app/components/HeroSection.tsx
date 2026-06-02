@@ -20,7 +20,7 @@ export default function HeroSection() {
         <video
           autoPlay
           loop
-          muted 
+          muted
           playsInline
           className="absolute w-full h-full object-cover object-top"
         >
@@ -36,9 +36,8 @@ export default function HeroSection() {
 
       {/* Content */}
       <div
-        className={`relative z-10 text-center text-white transform transition-all duration-1000 ${
-          isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-        }`}
+        className={`relative z-10 text-center text-white transform transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+          }`}
       >
         <div className="mb-8">
           <h1 className="text-6xl mb-4  text-white font-pear-soda">
@@ -58,10 +57,10 @@ export default function HeroSection() {
           </h1>
         </div>
         <h3 className="text-xl md:text-2xl  text-white mb-4">
-          Diseño y desarrollo experiencias jugables.
+          Creatividad digital y organización operativa
         </h3>
         <p className="text-lg md:text-xl text-white max-w-2xl mx-auto mb-8">
-          Game design, narrativa y prototipado para transformar ideas en sistemas funcionales.
+          Integrando diseño, tecnología y producción para que las ideas avancen.
         </p>
       </div>
     </section>

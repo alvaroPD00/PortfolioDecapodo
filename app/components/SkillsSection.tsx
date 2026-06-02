@@ -7,17 +7,21 @@ export default function SkillsSection() {
         </h2>
 
         <div className="text-black space-y-6 text-lg leading-relaxed mb-12">
+
           <p>
-            <b>Experiencia</b>: Docencia, game JAMs, coordinación de proyectos y comunidades creativas,
-            comunicación, redes, guionado y edición de contenidos.
+            <b>Coordinación y producción</b>: Coordinación de proyectos, organización de procesos, documentación, seguimiento de tareas, producción digital y facilitación de equipos multidisciplinarios.
           </p>
 
           <p>
-            <b>Conocimientos</b>: Diseño UX, programación, diseño y desarrollo web, experiencias interactivas, desarrollo narrativo.
+            <b>Experiencias interactivas</b>: Prototipado, implementación de sistemas interactivos, UX/UI, experiencias XR, diseño procedural, arte técnico e integración de soluciones en Unity.
           </p>
 
           <p>
-            <b>Software</b>: Unity, Git, Visual Studio Code, Photoshop, Illustrator, Premiere, Canva, Figma, Blender.
+            <b>Comunicación y contenidos</b>: Producción de contenidos, identidad visual, edición audiovisual, comunicación digital, gestión de comunidades y divulgación técnica.
+          </p>
+
+          <p>
+            <b>Herramientas</b>: Unity, Git, Visual Studio Code, Figma, Photoshop, Illustrator, Premiere, Blender, Google Workspace, HTML/CSS/JS, Trello, IA/ChatGPT, Canva, Inshot.
           </p>
         </div>
       </div>

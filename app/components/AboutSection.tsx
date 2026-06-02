@@ -9,9 +9,12 @@ export default function AboutSection() {
         </h2>
         <div className="text-white space-y-6 text-lg leading-relaxed mb-12">
           <p>
-          Soy Álvaro, graduado de la <b>Licenciatura en Diseño Multimedial</b> (UNLP), una disciplina que integra diseño, programación y comunicación para el desarrollo de experiencias, sistemas interactivos y proyectos web. </p>
+            Soy Álvaro, graduado de la Licenciatura en Diseño Multimedial (UNLP), una disciplina que integra diseño, programación y comunicación para el desarrollo de experiencias, sistemas interactivos y proyectos digitales.</p>
           <p>
-            Me especializo en <b>game design</b> y desarrollo en <b>Unity</b>. Diseño mecánicas, narrativa y sistemas jugables, trabajando desde la programación y el prototipado para resolver problemas, orientar decisiones y asegurar coherencia técnica y creativa en cada proyecto.
+            Trabajo desde una mirada práctica y transversal, conectando personas, áreas y necesidades para ayudar a transformar ideas y desafíos en soluciones viables. Me interesa facilitar la comunicación, organizar procesos y acompañar la toma de decisiones durante el desarrollo de los proyectos.
+          </p>
+          <p>
+            Puedo sumarme a distintas etapas de producción aportando prototipado, implementación, seguimiento y resolución de obstáculos. Mi objetivo es contribuir a que los equipos trabajen con mayor claridad, autonomía y capacidad de avance.
           </p>
 
 
