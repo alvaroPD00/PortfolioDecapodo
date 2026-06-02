@@ -67,37 +67,37 @@ export default function ContactSection() {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  if (!validateForm()) return;
+    if (!validateForm()) return;
 
-  setIsSubmitting(true);
+    setIsSubmitting(true);
 
-  try {
-    const res = await fetch("/.netlify/functions/send-contact-mail", {
-      method: "POST",
-      body: JSON.stringify({
-        nombre: formData.nombre,
-        email: formData.email,
-        tipoProyecto: formData.tipoProyecto,
-        mensaje: formData.mensaje,
-      }),
-    });
+    try {
+      const res = await fetch("/.netlify/functions/send-contact-mail", {
+        method: "POST",
+        body: JSON.stringify({
+          nombre: formData.nombre,
+          email: formData.email,
+          tipoProyecto: formData.tipoProyecto,
+          mensaje: formData.mensaje,
+        }),
+      });
 
-    const data = await res.json();
+      const data = await res.json();
 
-    if (res.ok) {
-      alert("¡Mensaje enviado correctamente!");
-      setFormData({ nombre: "", email: "", tipoProyecto: "", mensaje: "" });
-    } else {
-      alert("Error al enviar: " + data.message);
+      if (res.ok) {
+        alert("¡Mensaje enviado correctamente!");
+        setFormData({ nombre: "", email: "", tipoProyecto: "", mensaje: "" });
+      } else {
+        alert("Error al enviar: " + data.message);
+      }
+    } catch (error) {
+      alert("Error de conexión: " + error);
+    } finally {
+      setIsSubmitting(false);
     }
-  } catch (error) {
-    alert("Error de conexión: " + error);
-  } finally {
-    setIsSubmitting(false);
-  }
-};
+  };
 
 
   return (
@@ -125,9 +125,8 @@ export default function ContactSection() {
                 name="nombre"
                 value={formData.nombre}
                 onChange={handleInputChange}
-                className={`w-full bg-black/50 border text-white placeholder:text-white/60 rounded-lg h-12 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-electric-violet focus:border-transparent ${
-                  formErrors.nombre ? "border-red-500" : "border-white/20"
-                }`}
+                className={`w-full bg-black/50 border text-white placeholder:text-white/60 rounded-lg h-12 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-electric-violet focus:border-transparent ${formErrors.nombre ? "border-red-500" : "border-white/20"
+                  }`}
                 placeholder="Tu nombre completo"
               />
               {formErrors.nombre && (
@@ -143,9 +142,8 @@ export default function ContactSection() {
                 name="email"
                 value={formData.email}
                 onChange={handleInputChange}
-                className={`w-full bg-black/50 border text-white placeholder:text-white/60 rounded-lg h-12 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-electric-violet focus:border-transparent ${
-                  formErrors.email ? "border-red-500" : "border-white/20"
-                }`}
+                className={`w-full bg-black/50 border text-white placeholder:text-white/60 rounded-lg h-12 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-electric-violet focus:border-transparent ${formErrors.email ? "border-red-500" : "border-white/20"
+                  }`}
                 placeholder="tu@email.com"
               />
               {formErrors.email && (
@@ -162,17 +160,15 @@ export default function ContactSection() {
               name="tipoProyecto"
               value={formData.tipoProyecto}
               onChange={handleInputChange}
-              className={`w-full bg-black/50 border text-white rounded-lg h-12 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-electric-violet focus:border-transparent ${
-                formErrors.tipoProyecto ? "border-red-500" : "border-white/20"
-              }`}
+              className={`w-full bg-black/50 border text-white rounded-lg h-12 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-electric-violet focus:border-transparent ${formErrors.tipoProyecto ? "border-red-500" : "border-white/20"
+                }`}
             >
               <option value="">Selecciona una opción</option>
-              <option value="Consultoría en Game Design">Consultoría en Game Design</option>
-              <option value="Desarrollo Narrativo">Desarrollo Narrativo</option>
-              <option value="Planificación Estética">Planificación Estética</option>
-              <option value="Soporte para Proyectos Multidisciplinarios">Soporte para Proyectos Multidisciplinarios</option>
-              <option value="Diseño UX/UI y prototipado web">Diseño UX/UI y prototipado web</option>
-              <option value="Servicios complementarios">Servicios complementarios</option>
+              <option value="Coordinación y organización de proyectos">Coordinación y organización de proyectos</option>
+              <option value="Implementación y soporte de producción digital">Implementación y soporte de producción digital</option>
+              <option value="Soporte creativo y acompañamiento proyectual">Soporte creativo y acompañamiento proyectual</option>
+              <option value="Producción de contenidos y comunicación digital">Producción de contenidos y comunicación digital</option>
+              <option value="Experiencias interactivas y sistemas creativos">Experiencias interactivas y sistemas creativos</option>
             </select>
             {formErrors.tipoProyecto && (
               <p className="text-red-400 text-sm mt-1">
@@ -190,9 +186,8 @@ export default function ContactSection() {
               value={formData.mensaje}
               onChange={handleInputChange}
               rows={6}
-              className={`w-full bg-black/50 border text-white placeholder:text-white/60 resize-none rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-electric-violet focus:border-transparent ${
-                formErrors.mensaje ? "border-red-500" : "border-white/20"
-              }`}
+              className={`w-full bg-black/50 border text-white placeholder:text-white/60 resize-none rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-electric-violet focus:border-transparent ${formErrors.mensaje ? "border-red-500" : "border-white/20"
+                }`}
               placeholder="Contame sobre tu proyecto, ideas, objetivos..."
             />
             {formErrors.mensaje && (

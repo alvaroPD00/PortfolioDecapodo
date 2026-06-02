@@ -331,57 +331,58 @@ export const proyectos = [
 export const servicios = [
   {
     id: 1,
-    nombre: "Consultoría en Game Design",
+    nombre: "Coordinación y organización de proyectos",
     descripcion: [
-      "Análisis y optimización de sistemas de juego existentes. Ajuste de mecánicas, ritmo y balance para mejorar claridad, flujo y experiencia del jugador. Trabajo colaborativo con equipos para detectar problemas, ordenar ideas y fortalecer la dirección del gameplay.",
+      "Organización de tareas, documentación, seguimiento y articulación entre personas, áreas y objetivos. Trabajo ordenando procesos, facilitando la comunicación y sosteniendo el avance de proyectos digitales e interactivos de manera clara y sostenible.",
     ],
   },
   {
     id: 2,
-    nombre: "Desarrollo Narrativo",
+    nombre: "Implementación y soporte de producción digital",
     descripcion: [
-      "Diseño de historias interactivas y sistemas narrativos integrados al gameplay. Desarrollo de personajes, mundos y diálogos que refuerzan la coherencia narrativa y acompañan la experiencia de juego.",
+      "Integración de contenidos, assets, interfaces, configuraciones y materiales dentro de proyectos digitales e interactivos. Aporto apoyo operativo y técnico para mantener la producción organizada, facilitar flujos de trabajo y acompañar la ejecución de equipos multidisciplinarios.",
     ],
   },
   {
     id: 3,
-    nombre: "Prototipado en Unity",
+    nombre: "Soporte creativo y acompañamiento proyectual",
     descripcion: [
-      "Implementación de mecánicas, sistemas de interacción, UI y lógica de juego en Unity. Desarrollo de prototipos jugables para testear ideas, tomar decisiones de diseño y avanzar con mayor claridad durante la producción.",
+      "Acompaño proyectos en etapas de definición, desarrollo e implementación, ayudando a ordenar ideas, conectar áreas y transformar necesidades en acciones concretas. Aporto mirada sistémica, criterio creativo y capacidad de articulación multidisciplinaria para facilitar decisiones y fortalecer procesos de trabajo.",
     ],
   },
   {
     id: 4,
-    nombre: "Planificación Estética",
+    nombre: "Producción de contenidos y comunicación digital",
     descripcion: [
-      "Definición de la dirección visual de un proyecto y articulación entre arte y desarrollo. Creación de guías claras y aplicables para mantener coherencia estética sin perder identidad ni flexibilidad durante la producción.",],
+      "Desarrollo de contenidos gráficos, audiovisuales y digitales para comunicación, identidad y difusión de proyectos. Incluye edición de video, branding, piezas para redes, documentación visual y materiales adaptados a distintos formatos y plataformas.",],
   },
 
   {
     id: 5,
-    nombre: "Soporte para Proyectos Multidisciplinarios",
+    nombre: "Experiencias interactivas y sistemas creativos",
     descripcion: [
-      "Acompañamiento técnico y creativo en proyectos audiovisuales, interactivos y experimentales (animación, mapping, instalaciones, experiencias digitales). Organización, edición e integración de material para facilitar la producción y el trabajo en equipo.",],
+      "Diseño, prototipado e implementación de experiencias digitales, videojuegos, proyectos XR y sistemas interactivos. Integro interacción, narrativa, diseño procedural, arte técnico, shaders y herramientas de desarrollo para construir experiencias funcionales, coherentes y escalables.",],
   },
 
-{
-    id: 6,
-    nombre: "Diseño y prototipado web con enfoque UX/UI y comprensión técnica",
-    descripcion: [
-      "Desarrollo de arquitectura de información, wireframes y prototipos en Figma para sitios y productos digitales. Acompaño proyectos web desde el diseño hasta su implementación, con capacidad para intervenir sobre bases de código existentes, realizar ajustes y ampliar secciones en arquitecturas ya definidas, facilitando el trabajo conjunto con equipos de desarrollo.",],
-  },
 
-  {
-    id: 7,
-    nombre: "Servicios complementarios",
-    descripcion: [
-      "- Branding e identidad.",
-      "- Edición de video y contenidos para redes",
-      "- Producción de contenido educativo.",
-      "- Community management.",
-      "- Consultar según necesidad del proyecto.",
-    ],
-  },
+  /* {
+     id: 6,
+     nombre: "Diseño y prototipado web con enfoque UX/UI y comprensión técnica",
+     descripcion: [
+       "Desarrollo de arquitectura de información, wireframes y prototipos en Figma para sitios y productos digitales. Acompaño proyectos web desde el diseño hasta su implementación, con capacidad para intervenir sobre bases de código existentes, realizar ajustes y ampliar secciones en arquitecturas ya definidas, facilitando el trabajo conjunto con equipos de desarrollo.",],
+   },
+ 
+   {
+     id: 7,
+     nombre: "Servicios complementarios",
+     descripcion: [
+       "- Branding e identidad.",
+       "- Edición de video y contenidos para redes",
+       "- Producción de contenido educativo.",
+       "- Community management.",
+       "- Consultar según necesidad del proyecto.",
+     ],
+   },*/
 
 
 
