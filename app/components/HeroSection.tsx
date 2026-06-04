@@ -53,7 +53,7 @@ export default function HeroSection() {
             />
           </div>
           <h1 className="text-6xl mb-6 text-white font-pear-soda">
-            Game Design
+            TecnoCreativo
           </h1>
         </div>
         <h3 className="text-xl md:text-2xl  text-white mb-4">
