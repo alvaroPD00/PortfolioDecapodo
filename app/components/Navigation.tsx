@@ -35,8 +35,8 @@ export default function Navigation() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled || menuMovilAbierto
-          ? "bg-duke-blue/95 backdrop-blur-sm shadow-lg"
-          : "bg-transparent"
+        ? "bg-duke-blue/95 backdrop-blur-sm shadow-lg"
+        : "bg-transparent"
         }`}
     >
       <div className="max-w-6xl mx-auto px-4 lg:px-8">
@@ -52,7 +52,7 @@ export default function Navigation() {
               priority
             /> */}
             <span className="text-white text-3xl font-pear-soda">
-              Decápodo TecnoCreativo
+              Decápodo
             </span>
           </div>
 
