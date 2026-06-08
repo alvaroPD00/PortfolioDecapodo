@@ -40,7 +40,7 @@ export default function HeroSection() {
           }`}
       >
         <div className="mb-8">
-          <h1 className="text-6xl mb-4  text-white font-pear-soda">
+          <h1 className="text-7xl mb-4  text-white font-pear-soda">
             Decápodo
           </h1>
           <div className="mx-auto flex items-center justify-center mb-6">
@@ -52,8 +52,8 @@ export default function HeroSection() {
               className="w-48 h-48"
             />
           </div>
-          <h1 className="text-6xl mb-6 text-white font-pear-soda">
-            TecnoCreativo
+          <h1 className="text-5xl mb-4 text-white font-pear-soda">
+            Soluciones TecnoCreativas
           </h1>
         </div>
         <h3 className="text-xl md:text-2xl  text-white mb-4">
