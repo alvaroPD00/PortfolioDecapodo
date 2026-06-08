@@ -52,7 +52,7 @@ export default function Navigation() {
               priority
             /> */}
             <span className="text-white text-3xl font-pear-soda">
-              Decápodo
+              Decápodo Soluciones TecnoCreativas
             </span>
           </div>
 
