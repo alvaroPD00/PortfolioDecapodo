@@ -53,6 +53,54 @@ export const proyectos = [
 
   {
     id: 3,
+    titulo: "Tlaloq, el nigromante (Enero - 2026)",
+    descripcion:
+      [
+        "Se trata de un runner lateral, en el que el jugador debe moverse entre carriles y cambiar de máscaras para sortear obstáculos y vencer enemigos.",
+        "Resolución de mecánicas y arquitectura gráfica, coordinación entre áreas, implementación de assets y recursos, y asistencia de programación en Godot.",
+      ],
+    tipo: "imagen", // or "video"
+    media:
+      "https://img.itch.zone/aW1nLzI1MzEwODEzLnBuZw==/original/WS0feI.png", // or video path
+
+    botones: [
+      {
+        texto: "Jugar en itch.io",
+        url: "https://alvaropd.itch.io/tlaloq",
+      },
+      /*   {
+           texto: "Ver en GitHub",
+           url: "https://github.com/alvaroPD00/Translucido.Proyecto-Unity",
+         }*/
+    ]
+  },
+
+  {
+    id: 4,
+    titulo: "Runner de niveles procedurales (Abril - 2026)",
+    descripcion:
+      [
+        "Prototipo de construcción de niveles procedurales. Dispone habitaciones en el espacio de manera azarosa, a la vez que sus texturas y biomas se gestionan de manera variable, generando recorridos diferentes en cada oportunidad.",
+        "Diseño de nivel procedural en unity, implementando shaders creados con gráficos de nodos para crear biomas variables, con lógicas de runner por alcance de objetivos.",
+      ],
+    tipo: "image", // or "video"
+    media:
+      "https://img.itch.zone/aW1nLzI4MjQ2OTc1LmpwZw==/315x250%23c/Mi4I0E.jpg", // or video path
+
+    botones: [
+      {
+        texto: "Jugar en itch.io",
+        url: "https://alvaropd.itch.io/runnerprocedural",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00",
+      }
+    ]
+  },
+
+  {
+    id: 5,
     titulo: "Translúcido (Enero - 2025)",
     descripcion:
       [
@@ -77,7 +125,7 @@ export const proyectos = [
 
 
   {
-    id: 4,
+    id: 6,
     titulo: "Prototipo: CrabCave (Diciembre - 2025)",
     descripcion: [
       "Bases de un plataformero de resolución de puzzles, desarrollado durante la cursada de Unity 2D de Talento Tech.",
@@ -101,7 +149,7 @@ export const proyectos = [
   },
 
   {
-    id: 5,
+    id: 7,
     titulo: "Prototipo: Carrera atardecer (Marzo - 2025)",
     descripcion: [
       "Bases para runner 3D de recolección de objetos a contrarreloj, con implementación de comportamiento sonoro y ambiental, junto a interacción de objetos del escenario para transmitir tensión.",
@@ -123,7 +171,7 @@ export const proyectos = [
   },
 
   {
-    id: 6,
+    id: 8,
     titulo: "Prototipo: Crab pond (Junio - 2025)",
     descripcion: [
       "Pensado para web y móvil, compone las bases para sandbox de exploración, con personajes de multiples artistas, con los que uno interactúa para que te dirijan a sus portfolios o redes comerciales.",
@@ -146,7 +194,7 @@ export const proyectos = [
   },
 
   {
-    id: 7,
+    id: 9,
     titulo: "Prototipo: Learning to Shrimp (Abril - 2025)",
     descripcion: [
       "Bases para juego de disparos inspirado en clásicos de arcade y Snes, simulando el vuelo por un escenario mediante relieves móviles, resueltos con shadergraph pipeline, y una cámara dispuesta para componer un horizonte.",
@@ -192,7 +240,7 @@ export const proyectos = [
     },
   */
   {
-    id: 9,
+    id: 10,
     titulo: "Shaders dinamicos creados en Unity (Marzo - 2025)",
     descripcion: [
       "Creación de shaders personalizados, dinámicos y versátiles para soluciones visuales.",
@@ -215,7 +263,7 @@ export const proyectos = [
   },
 
   {
-    id: 10,
+    id: 11,
     titulo: "Diseño UX web Decápodo (Agosto - 2025)",
     descripcion: [
       "Desarrollado en el marco de la cursada del taller virtual de Diseño UXUI para sitios web, de la secretaría de extensión de la Facultad De Artes de la UNLP.",
@@ -238,7 +286,7 @@ export const proyectos = [
   },
 
   {
-    id: 11,
+    id: 12,
     titulo: "Prototipo de blog web (Marzo - 2024)",
     descripcion: [
       "Blog sobre el desarrollo de mi tesis Procediverso. Con detalle de conceptos detonantes, accesos a la tesis escrita y la web de la cátedra, y una paleta monocolor que varía en cada carga.",
@@ -261,7 +309,7 @@ export const proyectos = [
   },
 
   {
-    id: 12,
+    id: 13,
     titulo: "Prototipo de portfolio (Julio - 2024)",
     descripcion: [
       "Desarrollado en el marco de la cursada del curso de Diseño de Página Web, de la dirección de educación técnico profesional de la provincia de Buenos Aires.",
@@ -284,7 +332,7 @@ export const proyectos = [
   },
 
   {
-    id: 13,
+    id: 14,
     titulo: "Edición de video",
     descripcion: [
       "Implementando conocimientos de sonido, sincronización musical y comunicación, he producido una variedad de piezas audiovisuales. Desde aquellas que optan por un montaje técnico y más artístico, pasando por reels publicitarios, hasta registros guionados de proyectos interactivos."
@@ -306,7 +354,7 @@ export const proyectos = [
   },
 
   {
-    id: 14,
+    id: 15,
     titulo: "Noviembre Pluri Animado Platense - 2025",
     descripcion: [
       "Evento que coordinó múltiples proyectos multidisciplinarios en una misma agenda, buscando reunir y visibilizar el nicho de animación emergente local, como el trabajo de artistas digitales de la ciudad de La Plata.",

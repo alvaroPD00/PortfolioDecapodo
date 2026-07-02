@@ -13,9 +13,9 @@ const pearSoda = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Decápodo Game Design - Portfolio",
+  title: "Decápodo Soluciones TecnoCreativas",
   description:
-    "Portfolio de Álvaro - Diseñador de videojuegos especializado en narrativa y Unity",
+    "Portfolio de Álvaro - Diseñador multimedia especializado experiencias interactivas y contenidos digitales",
 };
 
 export default function RootLayout({
