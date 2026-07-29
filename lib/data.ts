@@ -26,8 +26,34 @@ export const proyectos = [
 
   },
 
+
   {
     id: 2,
+    titulo: "The Mushroom Legacy (Abril 2026 - Vigente)",
+    descripcion: [
+      "Videojuego top-down de acción y exploración donde el combate, los puzzles y la interacción con el entorno se integran en niveles generados proceduralmente para ofrecer situaciones de juego dinámicas y rejugables.",
+      "Game Systems Design, coordinación entre áreas y documentación funcional. Diseño de sistemas procedurales, balance, UX y prototipado para acompañar el desarrollo del juego.",
+    ],
+    tipo: "image", // or "video"
+    media:
+      "https://i.imgur.com/HkHT3rH.png", // or video path
+
+
+    botones: [
+      {
+        texto: "Su alfa en itch.io",
+        url: "https://aysunza.itch.io/the-mushroom-legacy",
+      },
+      {
+        texto: "Presentación PDF",
+        url: "https://drive.google.com/file/d/1-NXjGTKsFXMC5xC8HPsyv5QKCyJjlf3G/view?usp=sharing",
+      }
+    ]
+
+  },
+
+  {
+    id: 3,
     titulo: "Fuerzas de la calle (Marzo - 2025)",
     descripcion: [
       "Auto chess/tower defense desarrollado para la Emergencia gameJAM II: Jubilados, convocada por AccionDev, y gestada durante 9 días",
@@ -52,7 +78,7 @@ export const proyectos = [
   },
 
   {
-    id: 3,
+    id: 4,
     titulo: "Tlaloq, el nigromante (Enero - 2026)",
     descripcion:
       [
@@ -76,7 +102,7 @@ export const proyectos = [
   },
 
   {
-    id: 4,
+    id: 5,
     titulo: "Runner de niveles procedurales (Abril - 2026)",
     descripcion:
       [
@@ -100,7 +126,7 @@ export const proyectos = [
   },
 
   {
-    id: 5,
+    id: 6,
     titulo: "Translúcido (Enero - 2025)",
     descripcion:
       [
@@ -124,8 +150,127 @@ export const proyectos = [
   },
 
 
+
+
   {
-    id: 6,
+    id: 7,
+    titulo: "Diseño UX web Decápodo (Agosto - 2025)",
+    descripcion: [
+      "Desarrollado en el marco de la cursada del taller virtual de Diseño UXUI para sitios web, de la secretaría de extensión de la Facultad De Artes de la UNLP.",
+      "Maquetado en Figma, con implementación de assets y recursos resueltos en illustrator, photoshop y premiere.",
+    ],
+    tipo: "imagen", // or "imagen"
+    media: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/640462240223413.6940cbd82d4a6.jpg", // or image path
+
+    botones: [
+      {
+        texto: "Ver en Behance",
+        url: "https://www.behance.net/gallery/240223413/Diseno-UX-web-portfolio-Decapodo-Game-Design#",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/PortfolioDecapodo",
+      }
+    ]
+
+  },
+
+  {
+    id: 8,
+    titulo: "Prototipo de blog web (Marzo - 2024)",
+    descripcion: [
+      "Blog sobre el desarrollo de mi tesis Procediverso. Con detalle de conceptos detonantes, accesos a la tesis escrita y la web de la cátedra, y una paleta monocolor que varía en cada carga.",
+      "Implementación responsive completa con HTML, CSS y JS, con assets y recursos resueltos en illustrator, photoshop y premiere.",
+    ],
+    tipo: "imagen", // or "imagen"
+    media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/ProcediWeb.jpg", // or image path
+
+    botones: [
+      {
+        texto: "Ir a la web",
+        url: "https://procediweb.netlify.app/",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/ProcediWeb",
+      }
+    ]
+
+
+
+
+  },
+
+  {
+    id: 9,
+    titulo: "Edición de video",
+    descripcion: [
+      "Implementando conocimientos de sonido, sincronización musical y comunicación, he producido una variedad de piezas audiovisuales. Desde aquellas que optan por un montaje técnico y más artístico, pasando por reels publicitarios, hasta registros guionados de proyectos interactivos."
+    ],
+    tipo: "video", // or "imagen"
+    media: "https://www.youtube.com/embed/BPIXXrpHp10", // or image path
+
+    botones: [
+      {
+        texto: "Ver más en Behance",
+        url: "https://www.behance.net/gallery/239714951/Edicion-de-video",
+      },
+      {
+        texto: "Ver más en YouTube",
+        url: "https://www.youtube.com/@AlvaroDec%C3%A1podo",
+      }
+    ]
+
+  },
+
+  {
+    id: 10,
+    titulo: "Noviembre Pluri Animado Platense - 2025",
+    descripcion: [
+      "Evento que coordinó múltiples proyectos multidisciplinarios en una misma agenda, buscando reunir y visibilizar el nicho de animación emergente local, como el trabajo de artistas digitales de la ciudad de La Plata.",
+      "La campaña de difusión y convocatoria se extendió durante al menos dos meses, implementando piezas publicitarias resueltas en illustrator, photoshop, premiere, google forms y canva."
+    ],
+    tipo: "video", // or "imagen"
+    media: "https://www.youtube.com/embed/uWsjl1J6vu8", // or image path
+
+    botones: [
+      {
+        texto: "Ver agenda en instagram",
+        url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1",
+      },
+      {
+        texto: "Ver en Behance",
+        url: "https://www.behance.net/gallery/240649937/Noviembre-Pluri-Animado-Platense",
+      }
+    ]
+  },
+
+
+  {
+    id: 11,
+    titulo: "Prototipo de portfolio (Julio - 2024)",
+    descripcion: [
+      "Desarrollado en el marco de la cursada del curso de Diseño de Página Web, de la dirección de educación técnico profesional de la provincia de Buenos Aires.",
+      "Implementación responsive completa con HTML y CSS, con assets y recursos resueltos en illustrator, photoshop y premiere.",
+    ],
+    tipo: "imagen", // or "imagen"
+    media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/Portfolio.jpg", // or image path
+
+    botones: [
+      {
+        texto: "Ir a la web",
+        url: "https://alvaroperezdominguezportfolio.netlify.app/",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/MiPortfolioWeb",
+      }
+    ]
+
+  },
+
+  {
+    id: 12,
     titulo: "Prototipo: CrabCave (Diciembre - 2025)",
     descripcion: [
       "Bases de un plataformero de resolución de puzzles, desarrollado durante la cursada de Unity 2D de Talento Tech.",
@@ -149,7 +294,7 @@ export const proyectos = [
   },
 
   {
-    id: 7,
+    id: 13,
     titulo: "Prototipo: Carrera atardecer (Marzo - 2025)",
     descripcion: [
       "Bases para runner 3D de recolección de objetos a contrarreloj, con implementación de comportamiento sonoro y ambiental, junto a interacción de objetos del escenario para transmitir tensión.",
@@ -171,7 +316,7 @@ export const proyectos = [
   },
 
   {
-    id: 8,
+    id: 14,
     titulo: "Prototipo: Crab pond (Junio - 2025)",
     descripcion: [
       "Pensado para web y móvil, compone las bases para sandbox de exploración, con personajes de multiples artistas, con los que uno interactúa para que te dirijan a sus portfolios o redes comerciales.",
@@ -194,7 +339,7 @@ export const proyectos = [
   },
 
   {
-    id: 9,
+    id: 15,
     titulo: "Prototipo: Learning to Shrimp (Abril - 2025)",
     descripcion: [
       "Bases para juego de disparos inspirado en clásicos de arcade y Snes, simulando el vuelo por un escenario mediante relieves móviles, resueltos con shadergraph pipeline, y una cámara dispuesta para componer un horizonte.",
@@ -215,6 +360,30 @@ export const proyectos = [
     ]
 
   },
+
+  {
+    id: 16,
+    titulo: "Shaders dinamicos creados en Unity (Marzo - 2025)",
+    descripcion: [
+      "Creación de shaders personalizados, dinámicos y versátiles para soluciones visuales.",
+      "Resueltos con shader graph pipeline, el sistema de gráfico de nodos de Unity.",
+    ],
+    tipo: "video", // or "imagen"
+    media: "https://www.youtube.com/embed/gcVk5FStjZo", // or image path
+
+    botones: [
+      {
+        texto: "Ver más",
+        url: "https://youtu.be/Fj5eTj3e0ak?si=h9glemY_Gk9p9ESA",
+      },
+      {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/ShadersExpo1",
+      }
+    ]
+
+  },
+
   /*
     {
       
@@ -239,141 +408,7 @@ export const proyectos = [
   ]      
     },
   */
-  {
-    id: 10,
-    titulo: "Shaders dinamicos creados en Unity (Marzo - 2025)",
-    descripcion: [
-      "Creación de shaders personalizados, dinámicos y versátiles para soluciones visuales.",
-      "Resueltos con shader graph pipeline, el sistema de gráfico de nodos de Unity.",
-    ],
-    tipo: "video", // or "imagen"
-    media: "https://www.youtube.com/embed/gcVk5FStjZo", // or image path
 
-    botones: [
-      {
-        texto: "Ver más",
-        url: "https://youtu.be/Fj5eTj3e0ak?si=h9glemY_Gk9p9ESA",
-      },
-      {
-        texto: "Ver en GitHub",
-        url: "https://github.com/alvaroPD00/ShadersExpo1",
-      }
-    ]
-
-  },
-
-  {
-    id: 11,
-    titulo: "Diseño UX web Decápodo (Agosto - 2025)",
-    descripcion: [
-      "Desarrollado en el marco de la cursada del taller virtual de Diseño UXUI para sitios web, de la secretaría de extensión de la Facultad De Artes de la UNLP.",
-      "Maquetado en Figma, con implementación de assets y recursos resueltos en illustrator, photoshop y premiere.",
-    ],
-    tipo: "imagen", // or "imagen"
-    media: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/640462240223413.6940cbd82d4a6.jpg", // or image path
-
-    botones: [
-      {
-        texto: "Ver en Behance",
-        url: "https://www.behance.net/gallery/240223413/Diseno-UX-web-portfolio-Decapodo-Game-Design#",
-      },
-      {
-        texto: "Ver en GitHub",
-        url: "https://github.com/alvaroPD00/PortfolioDecapodo",
-      }
-    ]
-
-  },
-
-  {
-    id: 12,
-    titulo: "Prototipo de blog web (Marzo - 2024)",
-    descripcion: [
-      "Blog sobre el desarrollo de mi tesis Procediverso. Con detalle de conceptos detonantes, accesos a la tesis escrita y la web de la cátedra, y una paleta monocolor que varía en cada carga.",
-      "Implementación responsive completa con HTML, CSS y JS, con assets y recursos resueltos en illustrator, photoshop y premiere.",
-    ],
-    tipo: "imagen", // or "imagen"
-    media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/ProcediWeb.jpg", // or image path
-
-    botones: [
-      {
-        texto: "Ir a la web",
-        url: "https://procediweb.netlify.app/",
-      },
-      {
-        texto: "Ver en GitHub",
-        url: "https://github.com/alvaroPD00/ProcediWeb",
-      }
-    ]
-
-  },
-
-  {
-    id: 13,
-    titulo: "Prototipo de portfolio (Julio - 2024)",
-    descripcion: [
-      "Desarrollado en el marco de la cursada del curso de Diseño de Página Web, de la dirección de educación técnico profesional de la provincia de Buenos Aires.",
-      "Implementación responsive completa con HTML y CSS, con assets y recursos resueltos en illustrator, photoshop y premiere.",
-    ],
-    tipo: "imagen", // or "imagen"
-    media: "https://alvaroperezdominguezportfolio.netlify.app/img/proyectos/Portfolio.jpg", // or image path
-
-    botones: [
-      {
-        texto: "Ir a la web",
-        url: "https://alvaroperezdominguezportfolio.netlify.app/",
-      },
-      {
-        texto: "Ver en GitHub",
-        url: "https://github.com/alvaroPD00/MiPortfolioWeb",
-      }
-    ]
-
-  },
-
-  {
-    id: 14,
-    titulo: "Edición de video",
-    descripcion: [
-      "Implementando conocimientos de sonido, sincronización musical y comunicación, he producido una variedad de piezas audiovisuales. Desde aquellas que optan por un montaje técnico y más artístico, pasando por reels publicitarios, hasta registros guionados de proyectos interactivos."
-    ],
-    tipo: "video", // or "imagen"
-    media: "https://www.youtube.com/embed/BPIXXrpHp10", // or image path
-
-    botones: [
-      {
-        texto: "Ver más en Behance",
-        url: "https://www.behance.net/gallery/239714951/Edicion-de-video",
-      },
-      {
-        texto: "Ver más en YouTube",
-        url: "https://www.youtube.com/@AlvaroDec%C3%A1podo",
-      }
-    ]
-
-  },
-
-  {
-    id: 15,
-    titulo: "Noviembre Pluri Animado Platense - 2025",
-    descripcion: [
-      "Evento que coordinó múltiples proyectos multidisciplinarios en una misma agenda, buscando reunir y visibilizar el nicho de animación emergente local, como el trabajo de artistas digitales de la ciudad de La Plata.",
-      "La campaña de difusión y convocatoria se extendió durante al menos dos meses, implementando piezas publicitarias resueltas en illustrator, photoshop, premiere, google forms y canva."
-    ],
-    tipo: "video", // or "imagen"
-    media: "https://www.youtube.com/embed/uWsjl1J6vu8", // or image path
-
-    botones: [
-      {
-        texto: "Ver agenda en instagram",
-        url: "https://www.instagram.com/p/DQNIYQ3j87g/?img_index=1",
-      },
-      {
-        texto: "Ver en Behance",
-        url: "https://www.behance.net/gallery/240649937/Noviembre-Pluri-Animado-Platense",
-      }
-    ]
-  },
 ];
 
 export const servicios = [
