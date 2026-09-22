@@ -52,8 +52,33 @@ export const proyectos = [
 
   },
 
-  {
+ {
     id: 3,
+    titulo: "RuneTracer (Septiembre - 2026)",
+    descripcion: [
+      "Juego de puzzles y resolución de patrones visuales, en que debes dibujar sigilos siguiendo reglas lógicas, con una ambientación esoterica.",
+      "Diseño de sistemas de juego, implementación de assets, features y scripting en unity. Acompañamiento en resolución de problemas técnicos, de UX y composición de assets.",
+    ],
+    tipo: "image", // or "video"
+    media:
+      "https://img.itch.zone/aW1nLzI5Njg4MTExLmpwZw==/original/73hR09.jpg", // or video path
+
+
+    botones: [
+      {
+        texto: "Jugar en itch.io",
+        url: "https://lhycan.itch.io/runetracer",
+      },
+   /*   {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/JAM-Jubilados",
+      }*/
+    ]
+
+  },
+
+  {
+    id: 4,
     titulo: "Fuerzas de la calle (Marzo - 2025)",
     descripcion: [
       "Auto chess/tower defense desarrollado para la Emergencia gameJAM II: Jubilados, convocada por AccionDev, y gestada durante 9 días",
@@ -78,7 +103,7 @@ export const proyectos = [
   },
 
   {
-    id: 4,
+    id: 5,
     titulo: "Tlaloq, el nigromante (Enero - 2026)",
     descripcion:
       [
@@ -102,7 +127,7 @@ export const proyectos = [
   },
 
   {
-    id: 5,
+    id: 6,
     titulo: "Runner de niveles procedurales (Abril - 2026)",
     descripcion:
       [
@@ -126,7 +151,7 @@ export const proyectos = [
   },
 
   {
-    id: 6,
+    id: 7,
     titulo: "Translúcido (Enero - 2025)",
     descripcion:
       [
@@ -150,10 +175,32 @@ export const proyectos = [
   },
 
 
+{
+    id: 8,
+    titulo: "Bancando la parrilla (Agosto - 2026)",
+    descripcion:
+      [
+        "Juego de cocina y gestión de tareas por tiempo, con una estructura de estaciones de trabajo, asentando en un asado como icono de argentinismo.",
+        "Diseño de gameplay desde temática de jam, desarrollo de sistemas y experiencia de usuario. Coordinación de áreas de arte e implementación de assets en godot.",
+      ],
+    tipo: "image", // or "video"
+    media:
+      "https://img.itch.zone/aW1hZ2UvNDkxMzUzMC8yOTQzMDUyMC5qcGc=/original/J5zLji.jpg", // or video path
 
+    botones: [
+      {
+        texto: "Jugar en itch.io",
+        url: "https://alvaropd.itch.io/bancando-la-parrilla",
+      },
+    /*  {
+        texto: "Ver en GitHub",
+        url: "https://github.com/alvaroPD00/Translucido.Proyecto-Unity",
+      }*/
+    ]
+  },
 
   {
-    id: 7,
+    id: 9,
     titulo: "Diseño UX web Decápodo (Agosto - 2025)",
     descripcion: [
       "Desarrollado en el marco de la cursada del taller virtual de Diseño UXUI para sitios web, de la secretaría de extensión de la Facultad De Artes de la UNLP.",
@@ -176,7 +223,7 @@ export const proyectos = [
   },
 
   {
-    id: 8,
+    id: 10,
     titulo: "Prototipo de blog web (Marzo - 2024)",
     descripcion: [
       "Blog sobre el desarrollo de mi tesis Procediverso. Con detalle de conceptos detonantes, accesos a la tesis escrita y la web de la cátedra, y una paleta monocolor que varía en cada carga.",
@@ -202,7 +249,7 @@ export const proyectos = [
   },
 
   {
-    id: 9,
+    id: 11,
     titulo: "Edición de video",
     descripcion: [
       "Implementando conocimientos de sonido, sincronización musical y comunicación, he producido una variedad de piezas audiovisuales. Desde aquellas que optan por un montaje técnico y más artístico, pasando por reels publicitarios, hasta registros guionados de proyectos interactivos."
@@ -224,7 +271,7 @@ export const proyectos = [
   },
 
   {
-    id: 10,
+    id: 12,
     titulo: "Noviembre Pluri Animado Platense - 2025",
     descripcion: [
       "Evento que coordinó múltiples proyectos multidisciplinarios en una misma agenda, buscando reunir y visibilizar el nicho de animación emergente local, como el trabajo de artistas digitales de la ciudad de La Plata.",
@@ -247,7 +294,7 @@ export const proyectos = [
 
 
   {
-    id: 11,
+    id: 13,
     titulo: "Prototipo de portfolio (Julio - 2024)",
     descripcion: [
       "Desarrollado en el marco de la cursada del curso de Diseño de Página Web, de la dirección de educación técnico profesional de la provincia de Buenos Aires.",
@@ -270,7 +317,7 @@ export const proyectos = [
   },
 
   {
-    id: 12,
+    id: 14,
     titulo: "Prototipo: CrabCave (Diciembre - 2025)",
     descripcion: [
       "Bases de un plataformero de resolución de puzzles, desarrollado durante la cursada de Unity 2D de Talento Tech.",
@@ -294,7 +341,7 @@ export const proyectos = [
   },
 
   {
-    id: 13,
+    id: 15,
     titulo: "Prototipo: Carrera atardecer (Marzo - 2025)",
     descripcion: [
       "Bases para runner 3D de recolección de objetos a contrarreloj, con implementación de comportamiento sonoro y ambiental, junto a interacción de objetos del escenario para transmitir tensión.",
@@ -316,7 +363,7 @@ export const proyectos = [
   },
 
   {
-    id: 14,
+    id: 16,
     titulo: "Prototipo: Crab pond (Junio - 2025)",
     descripcion: [
       "Pensado para web y móvil, compone las bases para sandbox de exploración, con personajes de multiples artistas, con los que uno interactúa para que te dirijan a sus portfolios o redes comerciales.",
@@ -339,7 +386,7 @@ export const proyectos = [
   },
 
   {
-    id: 15,
+    id: 17,
     titulo: "Prototipo: Learning to Shrimp (Abril - 2025)",
     descripcion: [
       "Bases para juego de disparos inspirado en clásicos de arcade y Snes, simulando el vuelo por un escenario mediante relieves móviles, resueltos con shadergraph pipeline, y una cámara dispuesta para componer un horizonte.",
@@ -362,7 +409,7 @@ export const proyectos = [
   },
 
   {
-    id: 16,
+    id: 18,
     titulo: "Shaders dinamicos creados en Unity (Marzo - 2025)",
     descripcion: [
       "Creación de shaders personalizados, dinámicos y versátiles para soluciones visuales.",
@@ -384,30 +431,7 @@ export const proyectos = [
 
   },
 
-  /*
-    {
-      
-      id: 8,
-      titulo: "Agome (Septiembre - 2025)",
-      descripcion: [
-        "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
-        "Eres unx estudiante llegando a la ciudad de La Plata, por elegir tu carrera, afrontando cambios y, quizá, encontrando el amor.",
-      ],
-      tipo: "imagen", // or "imagen"
-      media: "https://img.itch.zone/aW1hZ2UvMzgwMjA5Ny8yMjY3MTA0Mi5qcGc=/original/cVwYFL.jpg", // or image path
-      
-      botones: [
-    {
-      texto: "Probar en itch.io",
-      url: "https://alvaropd.itch.io/agome",
-    },
-    {
-      texto: "Ver en GitHub",
-      url: "https://github.com/alvaroPD00/LearningToShrimp",
-    }
-  ]      
-    },
-  */
+  
 
 ];
 

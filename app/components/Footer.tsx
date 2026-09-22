@@ -23,7 +23,7 @@ const Footer: FC = () => {
     {
       icon: FaLinkedin,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-dom%C3%ADnguez/",
+      href: "https://www.linkedin.com/in/alvaro-perez-dominguez/",
     },
     { icon: FaEnvelope, label: "Email", 
       href: "https://mail.google.com/mail/?view=cm&to=alvaroperezdominguez00@gmail.com", },

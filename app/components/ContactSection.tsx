@@ -211,7 +211,7 @@ export default function ContactSection() {
             Contactame también en
           </span>
           <a
-            href="https://www.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-dom%C3%ADnguez/"
+            href="https://www.linkedin.com/in/alvaro-perez-dominguez/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-light-sky-blue transition-colors duration-300 transform hover:scale-110"
